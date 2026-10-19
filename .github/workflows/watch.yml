@@ -1,0 +1,85 @@
+name: Watch pricing pages
+
+on:
+  schedule:
+    # 07:00 UTC every day
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: pricing-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install watch dependencies
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Diff pricing pages
+        id: watch
+        run: |
+          set +e
+          python3 scripts/watch.py > "$RUNNER_TEMP/watch-report.txt" 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          cat "$RUNNER_TEMP/watch-report.txt"
+          if [ "$code" -ne 0 ] && [ "$code" -ne 1 ]; then
+            exit "$code"
+          fi
+
+      - name: Open issue when pricing changed
+        if: steps.watch.outputs.exit_code == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - << 'PY'
+          import datetime, os, pathlib, subprocess
+          report = pathlib.Path(os.environ["RUNNER_TEMP"]) / "watch-report.txt"
+          text = report.read_text(encoding="utf-8", errors="replace") if report.exists() else ""
+          if len(text) > 50000:
+              text = text[:50000] + "\n…(truncated)"
+          fence = "```"
+          while fence in text:
+              fence += "`"
+          date = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+          body = (
+              f"scripts/watch.py exited 1 on {date}. Pricing page text differs from the last snapshot.\n\n"
+              f"{fence}text\n{text}\n{fence}\n"
+          )
+          pathlib.Path(os.environ["RUNNER_TEMP"], "issue-body.md").write_text(body, encoding="utf-8")
+          title = f"Pricing page changed: {date}"
+          subprocess.run(
+              ["gh", "issue", "create", "--title", title, "--body-file", str(pathlib.Path(os.environ["RUNNER_TEMP"], "issue-body.md"))],
+              check=True,
+          )
+          PY
+
+      - name: Commit updated snapshots
+        if: always() && steps.watch.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots
+          if git diff --cached --quiet; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+          git commit -m "Update pricing page snapshots"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

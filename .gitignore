@@ -1,0 +1,7 @@
+# Built by scripts/build.py (GitHub Pages workflow publishes this)
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
