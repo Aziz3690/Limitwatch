@@ -1,0 +1,152 @@
+Plans & pricing: Bolt’s AI powered website and app builder
+Back
+Solutions
+Resources
+Careers
+Pricing
+Sign in
+Get Started
+Get Started
+Solutions
+Resources
+Careers
+Pricing
+AI for Small Business
+→
+Custom apps for your business, built in an afternoon — no code, no developer, no $100K project.
+Top Use Cases
+AI App Builder
+AI Website Builder
+SaaS Dev
+Prototyping
+Business Type
+Small Business
+Enterprise
+Bolt Templates
+→
+Production-ready starting points — dashboards, storefronts, portfolios, and more. Fork one and make it yours.
+Support
+Community
+Help Center
+Security & Trust
+Build and Learn
+Blog
+Templates
+Get Started
+Get Started
+Sign in
+Pricing
+Start for free. Upgrade as you go.
+Monthly
+Yearly
+Save up to 28%
+with yearly billing
+Free
+$0
+Get started
+You get:
+Public and private projects
+300K tokens daily limit
+1M tokens per month
+Bolt branding on websites
+10MB file upload limit
+Website hosting
+Up to 333k web requests
+Unlimited databases
+Pro
+$25
+per month
+billed monthly
+You get:
+Bolt Forge
+included until Oct 18
+Learn more
+Public and private projects
+No daily token limit
+Start at 10M tokens per month
+No Bolt branding on websites
+Share sites privately
+100MB file upload limit
+Website hosting
+Up to 1M web requests
+Unused tokens roll over to next month
+Custom domain support
+SEO boosting
+Unlimited databases
+Expanded database capacity
+Choice of database provider
+Image editing with AI
+Teams
+Popular
+$30
+per month and member
+billed monthly
+You get everything in Pro, plus:
+Centralized billing
+Team-level access management
+Granular admin controls & user provisioning
+Share with your organization
+Private NPM registries support
+Design System knowledge with per-package prompts
+Enterprise
+Custom
+Get advanced security, compliance, and 24/7 support. Customized to your team's exact needs.
+See a demo
+You get everything in Pro, plus:
+Advanced security (SSO, audit logs, compliance support)
+Granular admin controls & user provisioning
+Dedicated account manager & 24/7 priority support
+Custom workflows, integrations & SLAs
+Scalable for large teams and high-volume usage
+Flexible billing & procurement options
+Data governance & retention policies
+Hands-on onboarding & enterprise training
+Frequently asked questions
+Everything you need to know about the product and billing.
+What are tokens?
+AI tokens are a complex topic related to all AI apps, not just Bolt. You can learn more about tokens
+here
+. For Bolt specifically it is important to know that most token usage is related to syncing your project’s file system to the AI: the larger the project, the more tokens used per message. Our top priority is to increase the efficiency of token usage in Bolt. We continue to make improvements so that Bolt uses fewer tokens.
+How do Teams plans work?
+Teams provide a shared workspace for users to collaborate on Bolt projects. The subscription cost for Teams is per team member. Each paid team member receives a monthly token allotment based on the subscription tier. Tokens are not shared among team members. You can read more about Teams plans
+here
+.
+Do tokens rollover from month to month?
+Starting July 1, 2025, tokens from a paid subscription will roll over for one additional month, making them valid for up to two months in total. Please note that an active paid subscription is required to access any rolled over tokens. For more details, please refer to
+this article
+.
+Can I change my plan later?
+Yes, you can change your plan by clicking
+Manage current plan
+. This will take you to our Stripe billing portal where you can select
+Update subscription
+to change your plan type.
+Can I cancel my subscription?
+Yes, you can cancel at any time. Click
+Manage current plan
+to be taken into the cancellation process.
+What are the token limits associated with a free plan?
+Free plans have a 300,000 token daily limit and 1 million token monthly limit.
+For additional information, please visit our
+Help Center
+.
+Solutions
+AI App Builder
+AI Website Builder
+SaaS Dev
+Prototyping
+Small Business
+Enterprise
+Resources
+Blog
+Community
+Help Center
+Security & Trust
+Templates
+More
+Careers
+Pricing
+Terms of Use
+Acceptable Use Policy
+Privacy Policy
+Connect

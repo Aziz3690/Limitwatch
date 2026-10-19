@@ -1,0 +1,165 @@
+Plans and Pricing | Devin
+Product
+Solutions
+Resources
+Customers
+Pricing
+Blog
+Get a demo
+Login
+Get started
+Devin
+Plans and Pricing
+Choose the perfect plan for your journey
+SWE-2, our latest model, is now available →
+INDIVIDUAL PLANS
+Free
+$0
+Download
+Light quota to code with agents
+Limited model availability
+Unlimited inline edits
+Unlimited Tab completions
+Pro
+POPULAR
+$20
+per month
+Select plan
+Everything in Free, plus:
+Increased quotas, including access to frontier models from OpenAI, Claude, Gemini, and SpaceXAI, plus leading open source models
+Full model availability
+Free use of SWE-2
+Free in Devin Desktop and CLI through October 16, 2026
+Access to cloud agents (Devin Cloud)
+Purchase extra usage at API pricing
+Max
+NEW
+$200
+per month
+Select plan
+Everything in Pro, plus:
+Significantly higher quotas
+TEAM PLANS
+Teams
+$80
+/month for team plan + $40/mo per full dev seat
+Select plan
+Everything in Pro, plus:
+Up to 200 users
+Share and collaborate
+Centralized billing
+Admin dashboard with analytics
+Priority support
+Enterprise
+Let's talk
+Get a Demo
+Built to scale across your organization:
+Highest priority support
+Dedicated account management
+SAML/OIDC SSO
+Centralized enterprise admin controls
+Dedicated deployment option
+First class support for
+every major model provider
+Compare Plans
+Free
+$0/month
+Pro
+$20/month
+Max
+$200/month
+Team
+$80/month
+Enterprise
+Let's talk
+Members
+1
+1
+1
+Up to 200 users
+$40/month per
+full user
+Each full user includes their own generous quota and access to Devin Desktop
+Unlimited
+Devin Desktop
+Tab
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Premium models
+Fast context
+Free SWE-2
+Free in Devin Desktop and CLI through October 16, 2026
+Slow
+Devin Cloud
+DeepWiki
+Devin API
+Ask Devin
+Advanced capabilities
+Sharing and collaboration
+Concurrent sessions limit
+Up to 10
+Up to 10
+Unlimited
+Unlimited
+Integrations
+Slack and Teams
+Linear and Jira
+GitHub, GitLab, and Bitbucket
+Custom git provider support
+Account support
+Dedicated Slack Connect channel for support
+Optional onboarding call with the Cognition team
+Dedicated account and engineering support
+Access to early feature releases and research previews
+Custom
+Dedicated account team
+Custom terms
+Enterprise accounts
+Centralized management of multiple Devin organizations
+Security
+Deploy in your virtual private cloud (VPC)
+SAML/OIDC SSO
+Centralized enterprise admin controls
+Teamspace isolation
+Frequently Asked Questions
+How does usage work?
+Each paid plan comes with a usage allowance that refreshes automatically on a daily and weekly basis. For the majority of users, this quota will be enough to fully cover all agent usage. Cost per message varies based on the model used, the task size and complexity, and the reasoning required.
+What happens when I reach my usage limit?
+Most users will never hit their limits. If you do go beyond your included usage on a paid plan, you can purchase extra usage which is consumed at API pricing.
+How can I make my usage limits last longer?
+Control the size of your prompts.
+Be precise with your instructions, but remove unnecessary context.
+Switch to smaller models for routine tasks.
+Using mini models like Haiku, GPT 5.2 Mini, and open source models like Kimi K2.5 will extend your usage.
+What is the Max plan?
+The Max plan is for power users who need significantly higher usage quotas. It includes everything in Pro, plus significantly higher quotas.
+What is included in the Free plan?
+The Free plan includes a light quota to code with agents, limited model availability, unlimited inline edits, and unlimited Tab completions.
+Company
+Careers
+Brand
+About
+Support
+Legal
+Terms of Service
+Acceptable Use Policy
+Privacy Policy
+Data Use
+Your Privacy Choices
+Connect
+X
+LinkedIn
+YouTube
+Reddit
+Product
+Solutions
+Resources
+Customers
+Pricing
+Blog
+Get a demo
+Login
+Get started

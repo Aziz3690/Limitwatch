@@ -1,0 +1,11 @@
+[
+{"date":"2026-10-14","tool":"OpenAI Codex","summary":"GPT-5.5 retired from Codex with ChatGPT sign-in.","source":"https://developers.openai.com/codex/pricing"},
+{"date":"2026-09-14","tool":"Claude Code","summary":"Temporary +50% weekly-limit boost ended; permanent +25% over baseline began — Anthropic's own figure: a 17% reduction vs prior level. Announced 2026-08-29.","source":"https://www.digitalapplied.com/blog/ai-coding-plan-limit-change-ledger"},
+{"date":"2026-09-07","tool":"Cursor","summary":"Legacy Enterprise Auto flat per-token rate ended; Auto bills at routed model's list price.","source":"https://www.vibecodingresources.com/guides/vibe-coding-pricing-calendar"},
+{"date":"2026-09-01","tool":"GitHub Copilot","summary":"Promotional included credits for Business ($30) and Enterprise ($70) ended; back to $19/$39.","source":"https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/"},
+{"date":"2026-08-24","tool":"Cursor","summary":"Individual & Teams plans moved to routed-model pricing; included Cursor Models limits raised (no figure published).","source":"https://www.vibecodingresources.com/guides/vibe-coding-pricing-calendar"},
+{"date":"2026-07-21","tool":"Lovable","summary":"Cloud and AI dollar balances merged into one credit balance; 20 Cloud + 4 AI credits/mo grants. Headline prices unchanged.","source":"https://lovable.dev/blog/simplifying-billing"},
+{"date":"2026-07-16","tool":"Cursor","summary":"Included usage for Cursor models (Auto, Composer 2.5) doubled, per Cursor staff on X.","source":"https://www.digitalapplied.com/blog/ai-coding-plan-limit-change-ledger"},
+{"date":"2026-06-01","tool":"Cursor","summary":"Teams: separate first-party and third-party pools; Standard $40/mo ($32 annual), new Premium seat $120/mo ($96 annual) with 5x usage.","source":"https://cursor.com/blog/teams-pricing-june-2026"},
+{"date":"2026-06-01","tool":"GitHub Copilot","summary":"All plans moved to usage-based GitHub AI Credits replacing premium requests; Pro/Pro+ get flex allotments; new Max plan $100/mo.","source":"https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/"}
+]
