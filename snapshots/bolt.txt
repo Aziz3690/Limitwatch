@@ -58,9 +58,6 @@ $25
 per month
 billed monthly
 You get:
-Bolt Forge
-included until Oct 18
-Learn more
 Public and private projects
 No daily token limit
 Start at 10M tokens per month

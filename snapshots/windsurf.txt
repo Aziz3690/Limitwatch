@@ -29,7 +29,6 @@ Everything in Free, plus:
 Increased quotas, including access to frontier models from OpenAI, Claude, Gemini, and SpaceXAI, plus leading open source models
 Full model availability
 Free use of SWE-2
-Free in Devin Desktop and CLI through October 16, 2026
 Access to cloud agents (Devin Cloud)
 Purchase extra usage at API pricing
 Max
@@ -91,7 +90,6 @@ Unlimited
 Premium models
 Fast context
 Free SWE-2
-Free in Devin Desktop and CLI through October 16, 2026
 Slow
 Devin Cloud
 DeepWiki
