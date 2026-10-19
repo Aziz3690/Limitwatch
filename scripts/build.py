@@ -18,8 +18,8 @@ def page(title,body,depth=0):
 <title>{e(title)} · LimitWatch</title><link rel="stylesheet" href="{p}style.css"></head><body>
 <header><a class="b" href="{p}index.html">LimitWatch</a><a href="{p}index.html">Compare</a><a href="{p}changes.html">What changed</a><a href="{p}index.html#subscribe">Newsletter</a></header>
 <main>{body}</main><footer>Data checked {T['checked']}. Always verify on the vendor's official page. Not affiliated with any vendor.</footer></body></html>"""
-SUB="""<form id="subscribe" onsubmit="event.preventDefault();this.querySelector('p').textContent='Thanks! (Placeholder — newsletter not connected yet.)'">
-<h3>Get alerts when plans or limits change</h3><input type="email" required placeholder="you@example.com"> <button>Subscribe</button><p class="m">Placeholder form — no data is sent anywhere yet.</p></form>"""
+SUB="""<form id="subscribe" action="https://buttondown.com/api/emails/embed-subscribe/r44e44" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/r44e44', 'popupwindow')">
+<h3>Get alerts when plans or limits change</h3><input type="email" name="email" required placeholder="you@example.com"> <input type="hidden" name="embed" value="1"> <button>Subscribe</button><p class="m">Weekly email when AI coding plans change. Free, unsubscribe anytime.</p></form>"""
 if D.exists(): shutil.rmtree(D)
 (D/"tools").mkdir(parents=True); (D/"style.css").write_text(CSS)
 rows=""
