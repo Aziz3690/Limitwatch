@@ -15,6 +15,7 @@ Plugins
 Skills
 Extensions
 Claude for Chrome
+Claude for Google Workspace
 Claude for Microsoft 365
 Models
 Mythos

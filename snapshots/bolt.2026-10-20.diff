@@ -1,0 +1,389 @@
+--- previous
++++ current
+@@ -21,0 +22 @@
++All Use Cases
+@@ -22,0 +24 @@
++Entrepreneurs
+@@ -24 +26,3 @@
+-Enterprise
++Agencies
++Enterprise
++All Solutions
+@@ -39,2 +43 @@
+-Start for free. Upgrade as you go.
+-Monthly
++Start for free. No credit card required.
+@@ -43 +46 @@
+-with yearly billing
++Monthly
+@@ -46,2 +49,6 @@
+-Get started
+-You get:
++/month
++Free forever, no card required
++Start Free
++Start Free
++Try Bolt with daily limits. No credit card.
++1M tokens/month to try Bolt
+@@ -49,2 +55,0 @@
+-300K tokens daily limit
+-1M tokens per month
+@@ -52 +57 @@
+-10MB file upload limit
++Unlimited databases
+@@ -54,2 +59 @@
+-Up to 333k web requests
+-Unlimited databases
++MOST POPULAR
+@@ -57,16 +61,13 @@
+-$25
+-per month
+-billed monthly
+-You get:
+-Public and private projects
+-No daily token limit
+-Start at 10M tokens per month
+-No Bolt branding on websites
+-Share sites privately
+-100MB file upload limit
+-Website hosting
+-Up to 1M web requests
+-Unused tokens roll over to next month
+-Custom domain support
+-SEO boosting
+-Unlimited databases
++$18
++*
++/month
++Total of
++$216
++$300
++/ year
++Billed annually
++Get Pro
++Get Pro
++Everything in Free, plus real app capacity and your own domain.
++Your own domain, no Bolt branding
++10M tokens/month, rollover included
+@@ -75 +76,3 @@
+-Image editing with AI
++Access to the newest AI models
++Connectors and MCPs
++SEO boosting
+@@ -77,5 +80,12 @@
+-Popular
+-$30
+-per month and member
+-billed monthly
+-You get everything in Pro, plus:
++$27
++*
++/month per member
++Total of
++$324
++$360
++/ year
++Per member, billed annually
++Start a Team
++Start a Team
++Everything in Pro, plus shared capacity and team controls for collaboration.
++Best for small teams.
+@@ -87,0 +98 @@
++Priority support
+@@ -89,0 +101,4 @@
++Custom annual contract, billed by consumption
++Book a Demo
++Book a Demo
++Everything in Teams, built for scale, security, and compliance.
+@@ -91,8 +106,3 @@
+-See a demo
+-You get everything in Pro, plus:
+-Advanced security (SSO, audit logs, compliance support)
+-Granular admin controls & user provisioning
+-Dedicated account manager & 24/7 priority support
+-Custom workflows, integrations & SLAs
+-Scalable for large teams and high-volume usage
+-Flexible billing & procurement options
++SOC 2 Type II, SSO, and data governance
++Unlimited tokens, priced by consumption
++Dedicated infrastructure and account manager
+@@ -100,3 +110,235 @@
+-Hands-on onboarding & enterprise training
+-Frequently asked questions
+-Everything you need to know about the product and billing.
++Flexible procurement, MSA, and 24/7 support
++*
++Plus applicable taxes
++Trusted by teams shipping with AI
++Trusted by Accenture, Shopify, Google, Cloudflare, AWS, Microsoft, Salesforce, Meta
++Security and compliance
++Enterprise-grade security and compliance certifications
++Learn More
++Learn More
++Free
++Pro
++Teams
++Enterprise
++Pro
++plan comparison
++Compare
++Free
++Start Free
++Start Free
++Pro
++Get Pro
++Get Pro
++Teams
++Start a Team
++Start a Team
++Enterprise
++Book a Demo
++Book a Demo
++Usage & Tokens
++Monthly AI Tokens
++1M
++Starts at 10M
++Starts at 10M per member
++Custom
++Daily Token Limit
++300K
++No Limit
++No Limit
++No Limit
++Unused Tokens roll over
++—
++Not included
++Included
++Included
++Included
++File Upload Limit
++10MB
++100MB
++100MB
++Custom
++Web Requests / Month
++333K
++1M
++Up to 1M
++Custom
++Access to Best & Newest AI Models
++—
++Not included
++Included
++Included
++Included
++Projects & Hosting
++Public & Private Projects
++Included
++Included
++Included
++Included
++Bolt Branding removed
++—
++Not included
++Included
++Included
++Included
++Custom Domains
++—
++Not included
++Included
++Included
++Included
++Private Sharing
++—
++Not included
++Included
++Included
++Included
++Website Hosting
++Included
++Included
++Included
++Included
++SEO Boost for Published Sites
++—
++Not included
++Included
++Included
++Included
++Team Templates
++—
++Not included
++—
++Not included
++Included
++Included
++Collaboration
++Centralized Billing
++—
++Not included
++—
++Not included
++Included
++Included
++Team-Level Access Management
++—
++Not included
++—
++Not included
++Included
++Included
++Granular Admin Controls
++—
++Not included
++—
++Not included
++Included
++Included
++Org-Wide Sharing
++—
++Not included
++—
++Not included
++Included
++Included
++Integrations & Data
++Connectors & MCPs
++—
++Not included
++Included
++Included
++Included
++Private NPM Registries
++—
++Not included
++—
++Not included
++Included
++Included
++Design System Knowledge
++—
++Not included
++—
++Not included
++Included
++Included
++Security & Support
++Single Sign-On (SSO)
++—
++Not included
++—
++Not included
++Included
++Included
++Audit Logs
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++SOC 2, GDPR, ISO 27001
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++Advanced Security Reviews
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++Dedicated Infrastructure
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++Data Governance & Retention
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++Dedicated Account Manager
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++Flexible Billing, Procurement & MSA
++—
++Not included
++—
++Not included
++—
++Not included
++Included
++Support
++Community
++Email
++Priority
++24/7 Priority
++FAQs
++Everything
++you
++need
++to
++know
++about
++the
++product
++and
++billing.
++Visit Help Center
++Visit Help Center
+@@ -108,3 +349,0 @@
+-Teams provide a shared workspace for users to collaborate on Bolt projects. The subscription cost for Teams is per team member. Each paid team member receives a monthly token allotment based on the subscription tier. Tokens are not shared among team members. You can read more about Teams plans
+-here
+-.
+@@ -112,3 +350,0 @@
+-Starting July 1, 2025, tokens from a paid subscription will roll over for one additional month, making them valid for up to two months in total. Please note that an active paid subscription is required to access any rolled over tokens. For more details, please refer to
+-this article
+-.
+@@ -116,5 +351,0 @@
+-Yes, you can change your plan by clicking
+-Manage current plan
+-. This will take you to our Stripe billing portal where you can select
+-Update subscription
+-to change your plan type.
+@@ -122,3 +352,0 @@
+-Yes, you can cancel at any time. Click
+-Manage current plan
+-to be taken into the cancellation process.
+@@ -126,4 +354,16 @@
+-Free plans have a 300,000 token daily limit and 1 million token monthly limit.
+-For additional information, please visit our
+-Help Center
+-.
++Are you ready?
++Start
++building
++today
++Join
++thousands
++of
++teams
++shipping
++faster
++with
++our
++enterprise
++platform.
++Start Building
++Start Building
+@@ -147 +386,0 @@
+-Acceptable Use Policy

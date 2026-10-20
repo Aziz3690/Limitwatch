@@ -665,7 +665,7 @@ Legal
 Terms of Service
 Acceptable Use Policy
 Grok Bot Terms
-SpaceXAI Subscription Terms
+SpaceXSI Subscription Terms
 ↗
 Privacy Policy
 Cookie Policy
@@ -1363,7 +1363,7 @@ Legal
 Terms of Service
 Acceptable Use Policy
 Grok Bot Terms
-SpaceXAI Subscription Terms
+SpaceXSI Subscription Terms
 ↗
 Privacy Policy
 Cookie Policy

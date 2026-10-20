@@ -1,0 +1,7 @@
+--- previous
++++ current
+@@ -622 +622,3 @@
+-Run scans in CI
++CI/CD
++Overview
++GitHub Actions
