@@ -1,0 +1,7 @@
+--- previous
++++ current
+@@ -146 +146,3 @@
+-Credits used when interacting with Copilot features. Chat, agent mode, code review, Copilot cloud agent, Copilot CLI, and Copilot Apps consume GitHub AI Credits. Free plan supports CLI and agent mode.
++Credits used when interacting with Copilot features.
++Agent mode, code review, Copilot in the cloud, Copilot CLI, and Copilot app consume GitHub AI Credits.
++Free plan supports CLI and agent mode.

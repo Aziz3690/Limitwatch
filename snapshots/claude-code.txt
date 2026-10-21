@@ -3,7 +3,8 @@ Product
 Products
 Claude
 Claude Code
-@Claude
+Claude Cowork
+Claude Tag
 Specialized
 Claude Security
 Claude Science
@@ -14,12 +15,11 @@ Connectors
 Plugins
 Skills
 Extensions
-Claude for Chrome
+Claude in Chrome
 Claude for Google Workspace
 Claude for Microsoft 365
 Models
-Mythos
-Fable
+Mythos (including Fable)
 Opus
 Sonnet
 Haiku
@@ -46,6 +46,7 @@ Use Cases
 AI Agents
 Coding
 Commerce
+Managed Agents
 Departments
 Customer support
 Cybersecurity
@@ -1214,7 +1215,7 @@ Products
 Claude
 Claude Code
 Claude Cowork
-@Claude
+Claude Tag
 Claude Science
 Claude Security
 Download app
@@ -1231,8 +1232,7 @@ Claude in Chrome
 Claude for Google Workspace
 Claude for Microsoft 365
 Models
-Mythos
-Fable
+Mythos (including Fable)
 Opus
 Sonnet
 Haiku
@@ -1271,6 +1271,7 @@ Marketplace
 Claude on AWS
 Google Cloud
 Microsoft Foundry
+Managed Agents
 Resources
 Overview
 Articles
@@ -1311,7 +1312,7 @@ Products
 Claude
 Claude Code
 Claude Cowork
-@Claude
+Claude Tag
 Claude Science
 Claude Security
 Download app
@@ -1328,8 +1329,7 @@ Claude in Chrome
 Claude for Google Workspace
 Claude for Microsoft 365
 Models
-Mythos
-Fable
+Mythos (including Fable)
 Opus
 Sonnet
 Haiku
@@ -1368,6 +1368,7 @@ Marketplace
 Claude on AWS
 Google Cloud
 Microsoft Foundry
+Managed Agents
 Resources
 Overview
 Articles
