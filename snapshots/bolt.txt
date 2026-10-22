@@ -6,7 +6,6 @@ Careers
 Pricing
 Sign in
 Get Started
-Get Started
 Solutions
 Resources
 Careers
@@ -37,7 +36,6 @@ Build and Learn
 Blog
 Templates
 Get Started
-Get Started
 Sign in
 Pricing
 Start for free. No credit card required.
@@ -48,7 +46,6 @@ Free
 $0
 /month
 Free forever, no card required
-Start Free
 Start Free
 Try Bolt with daily limits. No credit card.
 1M tokens/month to try Bolt
@@ -66,7 +63,6 @@ $216
 $300
 / year
 Billed annually
-Get Pro
 Get Pro
 Everything in Free, plus real app capacity and your own domain.
 Your own domain, no Bolt branding
@@ -86,7 +82,6 @@ $360
 / year
 Per member, billed annually
 Start a Team
-Start a Team
 Everything in Pro, plus shared capacity and team controls for collaboration.
 Best for small teams.
 Centralized billing
@@ -99,7 +94,6 @@ Priority support
 Enterprise
 Custom
 Custom annual contract, billed by consumption
-Book a Demo
 Book a Demo
 Everything in Teams, built for scale, security, and compliance.
 Get advanced security, compliance, and 24/7 support. Customized to your team's exact needs.
@@ -115,7 +109,6 @@ Trusted by Accenture, Shopify, Google, Cloudflare, AWS, Microsoft, Salesforce, M
 Security and compliance
 Enterprise-grade security and compliance certifications
 Learn More
-Learn More
 Free
 Pro
 Teams
@@ -125,15 +118,11 @@ plan comparison
 Compare
 Free
 Start Free
-Start Free
 Pro
-Get Pro
 Get Pro
 Teams
 Start a Team
-Start a Team
 Enterprise
-Book a Demo
 Book a Demo
 Usage & Tokens
 Monthly AI Tokens
@@ -341,7 +330,6 @@ product
 and
 billing.
 Visit Help Center
-Visit Help Center
 What are tokens?
 AI tokens are a complex topic related to all AI apps, not just Bolt. You can learn more about tokens
 here
@@ -365,7 +353,6 @@ with
 our
 enterprise
 platform.
-Start Building
 Start Building
 Solutions
 AI App Builder

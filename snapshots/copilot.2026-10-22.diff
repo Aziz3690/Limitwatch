@@ -1,0 +1,352 @@
+--- previous
++++ current
+@@ -2,0 +3,3 @@
++GitHub Universe 2026
++Join Universe virtually, from anywhere.
++Save your seat
+@@ -805,21 +808,10 @@
+-GitHub Copilot transforms the developer experience. Backed by the leaders in AI, GitHub Copilot provides contextualized assistance throughout the software development lifecycle, from inline suggestions and chat assistance in the IDE to code explanations and answers to docs in GitHub and more. With GitHub Copilot elevating their workflow, developers can focus on: value, innovation, and happiness.
+-GitHub Copilot enables developers to focus more energy on problem solving and collaboration and spend less effort on the mundane and boilerplate. That’s why developers who use GitHub Copilot report up to 75% higher satisfaction with their jobs than those who don’t and are up to 55% more productive at writing code without sacrifice to quality, which all adds up to engaged developers shipping great software faster.
+-GitHub Copilot integrates with leading editors, including Visual Studio Code, Visual Studio, JetBrains IDEs, and Neovim, and, unlike other AI coding assistants, is natively built into GitHub. Growing to millions of individual users and tens of thousands of business customers, GitHub Copilot is the world’s most widely adopted AI developer tool and the competitive advantage developers ask for by name.
+-Who is eligible to access GitHub Copilot for free?
+-GitHub Copilot Free is a new free pricing tier with limited functionality for individual developers. Users assigned a Copilot Business or Copilot Enterprise seat are not eligible for access. Users with access to Copilot Pro through a paid subscription, trial, or through an existing verified OSS, student, faculty, or MVP account may elect to use Free instead.
+-What languages, IDEs, and platforms does GitHub Copilot support?
+-GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language. For example, JavaScript is well-represented in public repositories and is one of GitHub Copilot’s best supported languages. Languages with less representation in public repositories may produce fewer or less robust suggestions.
+-GitHub Copilot is available as an extension in Visual Studio Code, Visual Studio, Vim, Neovim, the JetBrains suite of IDEs, and Azure Data Studio. Although inline suggestion functionality is available across all these extensions, chat functionality is currently available only in Visual Studio Code, JetBrains, and Visual Studio. GitHub Copilot is also supported in terminals through GitHub CLI and as a chat integration in Windows Terminal Canary. With the GitHub Copilot Enterprise plan, GitHub Copilot is natively integrated into GitHub.com. All plans are supported in GitHub Copilot in GitHub Mobile. GitHub Mobile for Copilot Pro and Copilot Business have access to Bing and public repository code search. Copilot Enterprise in GitHub Mobile gives you additional access to your organization's knowledge.
+-Does GitHub Copilot “copy/paste”?
+-No, GitHub Copilot generates suggestions using probabilistic determination.
+-When thinking about intellectual property and open source issues, it is critical to understand how GitHub Copilot really works. The AI models that create GitHub Copilot’s suggestions may be trained on public code, but do not contain any code. When they generate a suggestion, they are not “copying and pasting” from any codebase.
+-To generate a code suggestion, the GitHub Copilot extension begins by examining the code in your editor—focusing on the lines just before and after your cursor, but also information including other files open in your editor and the URLs of repositories or file paths to identify relevant context. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
+-To generate a suggestion for chat in the code editor, the GitHub Copilot extension creates a contextual prompt by combining your prompt with additional context including the code file open in your active document, your code selection, and general workspace information, such as frameworks, languages, and dependencies. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
+-To generate a suggestion for chat on GitHub.com, such as providing an answer to a question from your chat prompt, GitHub Copilot creates a contextual prompt by combining your prompt with additional context including previous prompts, the open pages on GitHub.com as well as retrieved context from your codebase or Bing search. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
+-What are the differences between the GitHub Copilot Business, GitHub Copilot Enterprise, and GitHub Copilot Individual plans?
+-GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both inline suggestion and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
+-Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also  adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with GitHub Copilot throughout the platform.
+-GitHub Copilot Enterprise can index an organization's codebase for a deeper understanding of the customer's knowledge
+-for more tailored suggestions
+-. For more details, refer to the
+-documentation
++GitHub Copilot is an AI coding agent that helps you write, understand, and ship software. It helps you across every step of the software development lifecycle including exploring your codebase, planning your project, automating your workflows, reviewing your changes, and resolving merge conflicts.
++Because Copilot is built into GitHub, it works within the development workflow you already use:
++Your code and its history.
++The issues and pull requests you already use to track work.
++The automations you run in your repository.
++A change can start as an issue, be picked up by an agent, return as a pull request, get reviewed for quality and security, and be merged. You and Copilot work on it in the same place, with the same context, instead of moving code into separate tools and back again.
++What languages, IDEs, and surfaces does GitHub Copilot support?
++GitHub Copilot is trained on all languages that appear in public repositories.
++GitHub Copilot is available in multiple IDEs including Visual Studio Code, Visual Studio, JetBrains IDEs, XCode, Vim, Neovim, Zed, and Eclipse. GitHub Copilot is also available in the terminal/CLI, through the GitHub Copilot desktop app, on the web, on mobile, in Slack, and in Teams. You can easily start working on one surface and continue the same session on another. Learn more
++here
+@@ -827,13 +819,10 @@
+-GitHub Copilot Individual is designed for individual developers, freelancers, students, educators, and open source maintainers. The plan includes all the features of GitHub Copilot Business except organizational license management, policy management, and IP indemnity.
+-What data has GitHub Copilot been trained on?
+-GitHub Copilot is powered by generative AI models developed by GitHub, OpenAI, and Microsoft. It has been trained on natural language text and source code from publicly available sources, including code in public repositories on GitHub. Starting on April 24, GitHub may also use interactions from users with a Copilot Free, Copilot Pro, and Copilot Pro+ subscription - including inputs, outputs, code snippets, and associated context - to train and improve our AI models unless they have opted out. This allows us to build more intelligent, context-aware coding assistance for a more diverse set of coding tasks based on real-world development patterns. Users were notified 30 days before the change went into effect and can opt out from allowing their data to be used for training in their GitHub account settings at any time.
+-Which plan includes GitHub Copilot Autofix?
+-GitHub Copilot Autofix provides contextual explanations and code suggestions to help developers fix vulnerabilities in code, and is included in
+-GitHub Advanced Security
+-.
+-What if I do not want GitHub Copilot?
+-GitHub Copilot is entirely optional and requires you to opt in before gaining access. You can easily configure its usage directly in the editor, enabling or disabling it at any time. Additionally, you have control over which file types GitHub Copilot is active for.
+-How do I control access to GitHub Copilot in my company?
+-Access to Copilot Business and Enterprise is managed by your GitHub Administrator. They can control access to preview features, models, and set GitHub Copilot policies for your organization. Additionally, you can use your network firewall to explicitly allow access to Copilot Business and/or block access to Copilot Pro or Free. For more details, refer to the
+-documentation
+-.
++How can I get started using GitHub Copilot?
++You can find a plethora of resources on
++GitHub Docs
++including quickstart guides for multiple surfaces and best practices. Our community has built
++Awesome GitHub Copilot
++to share reusable agents, skills, instructions, hooks, and tools built by developers to help you ship faster with Copilot. You can also find
++tutorials
++and
++YouTube videos
++to help you get started today!
+@@ -841,36 +829,0 @@
+-What are the differences between the Free, Pro, Pro+, Max, Business, and Enterprise plans?
+-GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both code completion and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
+-Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also  adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with Copilot  throughout the platform. GitHub Copilot Enterprise can index an organization’s codebase for a deeper understanding of the customer’s knowledge for more tailored suggestions and will offer customers access to fine-tuned custom, private models for code completion.
+-GitHub Copilot Pro is designed for individual developers, freelancers, students, educators, and open source maintainers. The plan includes all the features of GitHub Copilot Business except organizational license management, policy management, and IP indemnity.
+-GitHub Copilot Max is built for heavy Copilot usage, including sustained agent-driven workflows, and includes $100/month in GitHub AI Credits.
+-How can I upgrade my GitHub Copilot Free license to Copilot Pro?
+-If you're on the Free plan, you can upgrade to Pro through your
+-Copilot settings page
+-or directly on
+-the
+-Copilot marketing page
+-.
+-What is included in GitHub Copilot Free?
+-GitHub Copilot Free users are limited to 2000 completions and 50 chat requests (including Copilot Edits).
+-Which plan includes GitHub Copilot Autofix?
+-GitHub Copilot Autofix provides contextual explanations and code suggestions to help developers fix vulnerabilities in code, and is included in GitHub Advanced Security and available to all public repositories.
+-Can users in my organization use Copilot code reviews for their pull requests if they don’t have a Copilot license?
+-Organizations can now enable Copilot code review on all pull requests on github.com—including pull requests from users who are not assigned a Copilot license
+-.
+-This allows you to extend the quality and rich analysis of Copilot code review to all pull requests, regardless of its author, giving you complete coverage and confidence that pull requests have been reviewed.
+-To enable this functionality, an enterprise/org admin must first have Copilot enabled and then enabled two policies.
+-Note
+-: This capability is not supported for Copilot code reviews in VS Code or other IDEs.
+-How does billing work for Copilot code review usage generated by users without a Copilot license?
+-Usage from non-licensed users is billed directly to your organization as GitHub AI Credits. This flexible model allows you to get full review coverage on every PR without purchasing a full Copilot seat for non-development contributors who may not need Copilot.
+-Usage from your existing licensed users continues to draw from their included monthly allowance as it does today. Beginning June 1, 2026, code review workflows also consume GitHub Actions minutes.
+-Is Copilot code review usage from users without a Copilot license enabled by default? How do I control the cost?
+-No. This capability is off by default and gives the enterprise admin control to enable or disable. An admin must explicitly enable two separate policies to activate:
+-‘GitHub AI Credits paid usage’
+-must be enabled to allow enterprises to be charged for GitHub AI Credits exceeding their included usage.
+-A new Copilot code review policy (
+-‘Allow members without a Copilot license to use Copilot code review in github.com’
+-) must also be enabled.
+-We encourage admins to
+-set up budgets to control spending on our metered products
+-, especially customers who have not enabled the ‘Premium request paid usage’ policy in the past. You can track all premium request usage in your billing dashboard to monitor and control spending.
+@@ -879 +832 @@
+-You use credits when you chat with Copilot, work with agents, or use Copilot CLI, Spaces, and Spark. Code completions and next edit suggestions don't use credits. They remain unlimited with every paid plan.
++You use credits when you chat with Copilot and work with agents. Code completions and next edit suggestions don't use credits. They remain unlimited with every paid plan.
+@@ -880,0 +834,4 @@
++What are the differences between the Free, Pro, Pro+, Max, Business, and Enterprise plans?
++GitHub Copilot has multiple offerings for organizations and individual developers. Key differences between the plans include total GitHub AI Credits and available models. To see more information and a comparison chart between plans, please see our
++plans & pricing page
++.
+@@ -887,0 +845,6 @@
++What is included in GitHub Copilot Free?
++GitHub Copilot Free users are limited to 2,000 completions and access to entry level models per month. If you're on the Free plan, you can upgrade to Pro through your
++Copilot settings page
++or directly on the
++Copilot marketing page
++.
+@@ -899,2 +861,0 @@
+-Does GitHub use Copilot Business or Enterprise data to train GitHub’s model?
+-No. GitHub does not use either Copilot Business or Enterprise data to train its models.
+@@ -902 +863 @@
+-How GitHub uses Copilot data depends on how the user accesses Copilot and for what purpose. Users can access GitHub Copilot through the web, extensions, mobile apps, computer terminal, and various IDEs (Integrated Development Environments). GitHub generally uses personal data to:
++How GitHub uses Copilot data depends on how the user accesses Copilot and for what purpose. GitHub generally uses personal data to:
+@@ -907,2 +868,2 @@
+-DPA
+-), which details our data handling commitments to our data controller customers. GitHub also uses certain personal data with customer authorization under the DPA, for the following purposes:
++DPA)
++, which details our data handling commitments to our data controller customers. GitHub also uses certain personal data with customer authorization under the DPA, for the following purposes:
+@@ -913,0 +875,3 @@
++To learn more, read more at our
++Copilot Trust Center
++.
+@@ -927,12 +890,0 @@
+-How long does GitHub retain Copilot data for Business and Enterprise customers?
+-If and for how long GitHub’s retains Copilot data depends on how a Copilot user accesses Copilot and for what purpose. The default settings for Copilot Business and Enterprise Customers are as follows:
+-Access through IDE for Chat and Code Completions:
+-Prompts and Suggestions: Not retained
+-User Engagement Data: Kept for two years.
+-Feedback Data: Stored for as long as needed for its intended purpose.
+-All other GitHub Copilot access and use:
+-Prompts and Suggestions: Retained for 28 days.
+-User Engagement Data: Kept for two years.
+-Feedback Data: Stored for as long as needed for its intended purpose.
+-Why do some Copilot features retain prompts and suggestions?
+-Retaining prompts and suggestions is necessary for chat on github.com, mobile, and CLI Copilot because those features’ effectiveness depends on using thread history to improve responses. The Copilot model requires access to previous interactions to deliver accurate and relevant suggestions.
+@@ -961,0 +914,3 @@
++GitHub Copilot also includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, please report them directly to
++copilot-safety@github.com
++so that we can improve our safeguards. GitHub takes this challenge very seriously and we are committed to addressing it.
+@@ -963,8 +917,0 @@
+-Does GitHub Copilot include features to make it easier for users to identify potentially relevant open source licenses for matching suggestions?
+-Yes, GitHub Copilot is previewing a
+-code referencing feature
+-as an additional tool to assist users to find and review potentially relevant open source licenses. Code referencing is currently available in Visual Studio Code. This feature searches across public GitHub repositories for code that matches a Copilot suggestion. If there’s a match, users will find its information displayed in the Copilot console log, including where the match occurred, any applicable licenses, and a deep link to learn more. The deep link will take users to a navigable page on GitHub.com to browse examples of the code match and their repository licenses, and see how many repositories—including ones without licenses—that code appears in, as well as links to those repositories. Copilot users can review this information to determine whether the applicable suggestions are suitable for use, and whether additional measures may be necessary to use them.
+-Who owns the suggestions provided by GitHub Copilot?
+-We don’t determine whether a suggestion is capable of being owned, but we are clear that GitHub does not claim ownership of a suggestion. Whether a suggestion generated by an AI model can be owned depends on many factors (e.g. the intellectual property law in the relevant country, the length of the suggestion, the extent that suggestion is considered ‘functional’ instead of expressive, etc).
+-If a suggestion is capable of being owned, our terms are clear: GitHub does not claim ownership.
+-GitHub does not claim ownership of any suggestion. In certain cases, it is possible for Copilot to produce similar suggestions to different users. For example, two unrelated users both starting new files to code the quicksort algorithm in Java will likely get the same suggestion. The possibility of providing similar suggestions to multiple users is a common part of generative AI systems.
+@@ -980,10 +927,3 @@
+-No. Copilot is a tool intended to make developers more efficient. It’s not intended to replace developers, who should continue to apply the same sorts of safeguards and diligence they would apply with regard to any third-party code of unknown origin.
+-The product is called “Copilot” not “Autopilot” and it’s not intended to generate code without oversight. You should use exactly the same sorts of safeguards and diligence with Copilot’s suggestions as you would use with any third-party code.
+-Identifying best practices for use of third party code is beyond the scope of this section. That said, whatever practices your organization currently uses – rigorous functionality testing, code scanning, security testing, etc. – you should continue these policies with Copilot’s suggestions. Moreover, you should make sure your code editor or editor does not automatically compile or run generated code before you review it.
+-Can GitHub Copilot users simply use suggestions without concern?
+-Not necessarily. GitHub Copilot users should align their use of Copilot with their respective risk tolerances.
+-As noted above, GitHub Copilot is not intended to replace developers, or their individual skill and judgment, and is not intended to fully automate the process of code development. The same risks that apply to the use of any third-party code apply to the use of Copilot’s suggestions.
+-Depending on your particular use case, you should consider implementing the protections discussed above. It is your responsibility to assess what is appropriate for the situation and implement appropriate safeguards.
+-You’re entitled to IP indemnification from GitHub for the unmodified suggestions when Copilot’s filtering is enabled. If you do elect to enable this feature, the copyright responsibility is ours, not our customers. As part of our ongoing commitment to responsible AI, GitHub and Microsoft extends our IP indemnity and protection support to our customers who are empowering their teams with GitHub Copilot. See
+-Microsoft's Copilot Copyright Commitment
+-for more details.
++No. GitHub Copilot is a tool intended to make developers more efficient. It’s not intended to replace developers.
++Developers should use exactly the same sorts of safeguards and diligence with Copilot’s suggestions as they would use with any third-party code.
++Practices such as rigorous functionality testing, code scanning, security testing, etc. should continue policies with Copilot’s suggestions. Moreover, you should make sure your code editor or editor does not automatically compile or run generated code before you review it.
+@@ -991,2 +931,2 @@
+-We are conducting internal testing of GitHub Copilot’s ease of use by developers with disabilities and working to ensure that GitHub Copilot is accessible to all developers. Please feel free to share your feedback on GitHub Copilot accessibility in our
+-feedback forum
++We are conducting internal testing of GitHub Copilot’s ease of use by developers with disabilities and working to ensure that GitHub Copilot is accessible to all developers. Learn more about accessibility at GitHub and view our detailed documentation on various accessibility topics and features, including instructions for using our products with screen readers and other assistive technologies at our
++GitHub Accessibility website
+@@ -994,4 +933,0 @@
+-Does GitHub Copilot produce offensive outputs?
+-GitHub Copilot includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, please report them directly to
+-copilot-safety@github.com
+-so that we can improve our safeguards. GitHub takes this challenge very seriously and we are committed to addressing it.
+@@ -1006,21 +942,10 @@
+-GitHub Copilot transforms the developer experience. Backed by the leaders in AI, GitHub Copilot provides contextualized assistance throughout the software development lifecycle, from inline suggestions and chat assistance in the IDE to code explanations and answers to docs in GitHub and more. With GitHub Copilot elevating their workflow, developers can focus on: value, innovation, and happiness.
+-GitHub Copilot enables developers to focus more energy on problem solving and collaboration and spend less effort on the mundane and boilerplate. That’s why developers who use GitHub Copilot report up to 75% higher satisfaction with their jobs than those who don’t and are up to 55% more productive at writing code without sacrifice to quality, which all adds up to engaged developers shipping great software faster.
+-GitHub Copilot integrates with leading editors, including Visual Studio Code, Visual Studio, JetBrains IDEs, and Neovim, and, unlike other AI coding assistants, is natively built into GitHub. Growing to millions of individual users and tens of thousands of business customers, GitHub Copilot is the world’s most widely adopted AI developer tool and the competitive advantage developers ask for by name.
+-Who is eligible to access GitHub Copilot for free?
+-GitHub Copilot Free is a new free pricing tier with limited functionality for individual developers. Users assigned a Copilot Business or Copilot Enterprise seat are not eligible for access. Users with access to Copilot Pro through a paid subscription, trial, or through an existing verified OSS, student, faculty, or MVP account may elect to use Free instead.
+-What languages, IDEs, and platforms does GitHub Copilot support?
+-GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language. For example, JavaScript is well-represented in public repositories and is one of GitHub Copilot’s best supported languages. Languages with less representation in public repositories may produce fewer or less robust suggestions.
+-GitHub Copilot is available as an extension in Visual Studio Code, Visual Studio, Vim, Neovim, the JetBrains suite of IDEs, and Azure Data Studio. Although inline suggestion functionality is available across all these extensions, chat functionality is currently available only in Visual Studio Code, JetBrains, and Visual Studio. GitHub Copilot is also supported in terminals through GitHub CLI and as a chat integration in Windows Terminal Canary. With the GitHub Copilot Enterprise plan, GitHub Copilot is natively integrated into GitHub.com. All plans are supported in GitHub Copilot in GitHub Mobile. GitHub Mobile for Copilot Pro and Copilot Business have access to Bing and public repository code search. Copilot Enterprise in GitHub Mobile gives you additional access to your organization's knowledge.
+-Does GitHub Copilot “copy/paste”?
+-No, GitHub Copilot generates suggestions using probabilistic determination.
+-When thinking about intellectual property and open source issues, it is critical to understand how GitHub Copilot really works. The AI models that create GitHub Copilot’s suggestions may be trained on public code, but do not contain any code. When they generate a suggestion, they are not “copying and pasting” from any codebase.
+-To generate a code suggestion, the GitHub Copilot extension begins by examining the code in your editor—focusing on the lines just before and after your cursor, but also information including other files open in your editor and the URLs of repositories or file paths to identify relevant context. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
+-To generate a suggestion for chat in the code editor, the GitHub Copilot extension creates a contextual prompt by combining your prompt with additional context including the code file open in your active document, your code selection, and general workspace information, such as frameworks, languages, and dependencies. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
+-To generate a suggestion for chat on GitHub.com, such as providing an answer to a question from your chat prompt, GitHub Copilot creates a contextual prompt by combining your prompt with additional context including previous prompts, the open pages on GitHub.com as well as retrieved context from your codebase or Bing search. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
+-What are the differences between the GitHub Copilot Business, GitHub Copilot Enterprise, and GitHub Copilot Individual plans?
+-GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both inline suggestion and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
+-Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also  adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with GitHub Copilot throughout the platform.
+-GitHub Copilot Enterprise can index an organization's codebase for a deeper understanding of the customer's knowledge
+-for more tailored suggestions
+-. For more details, refer to the
+-documentation
++GitHub Copilot is an AI coding agent that helps you write, understand, and ship software. It helps you across every step of the software development lifecycle including exploring your codebase, planning your project, automating your workflows, reviewing your changes, and resolving merge conflicts.
++Because Copilot is built into GitHub, it works within the development workflow you already use:
++Your code and its history.
++The issues and pull requests you already use to track work.
++The automations you run in your repository.
++A change can start as an issue, be picked up by an agent, return as a pull request, get reviewed for quality and security, and be merged. You and Copilot work on it in the same place, with the same context, instead of moving code into separate tools and back again.
++What languages, IDEs, and surfaces does GitHub Copilot support?
++GitHub Copilot is trained on all languages that appear in public repositories.
++GitHub Copilot is available in multiple IDEs including Visual Studio Code, Visual Studio, JetBrains IDEs, XCode, Vim, Neovim, Zed, and Eclipse. GitHub Copilot is also available in the terminal/CLI, through the GitHub Copilot desktop app, on the web, on mobile, in Slack, and in Teams. You can easily start working on one surface and continue the same session on another. Learn more
++here
+@@ -1028,13 +953,10 @@
+-GitHub Copilot Individual is designed for individual developers, freelancers, students, educators, and open source maintainers. The plan includes all the features of GitHub Copilot Business except organizational license management, policy management, and IP indemnity.
+-What data has GitHub Copilot been trained on?
+-GitHub Copilot is powered by generative AI models developed by GitHub, OpenAI, and Microsoft. It has been trained on natural language text and source code from publicly available sources, including code in public repositories on GitHub. Starting on April 24, GitHub may also use interactions from users with a Copilot Free, Copilot Pro, and Copilot Pro+ subscription - including inputs, outputs, code snippets, and associated context - to train and improve our AI models unless they have opted out. This allows us to build more intelligent, context-aware coding assistance for a more diverse set of coding tasks based on real-world development patterns. Users were notified 30 days before the change went into effect and can opt out from allowing their data to be used for training in their GitHub account settings at any time.
+-Which plan includes GitHub Copilot Autofix?
+-GitHub Copilot Autofix provides contextual explanations and code suggestions to help developers fix vulnerabilities in code, and is included in
+-GitHub Advanced Security
+-.
+-What if I do not want GitHub Copilot?
+-GitHub Copilot is entirely optional and requires you to opt in before gaining access. You can easily configure its usage directly in the editor, enabling or disabling it at any time. Additionally, you have control over which file types GitHub Copilot is active for.
+-How do I control access to GitHub Copilot in my company?
+-Access to Copilot Business and Enterprise is managed by your GitHub Administrator. They can control access to preview features, models, and set GitHub Copilot policies for your organization. Additionally, you can use your network firewall to explicitly allow access to Copilot Business and/or block access to Copilot Pro or Free. For more details, refer to the
+-documentation
+-.
++How can I get started using GitHub Copilot?
++You can find a plethora of resources on
++GitHub Docs
++including quickstart guides for multiple surfaces and best practices. Our community has built
++Awesome GitHub Copilot
++to share reusable agents, skills, instructions, hooks, and tools built by developers to help you ship faster with Copilot. You can also find
++tutorials
++and
++YouTube videos
++to help you get started today!
+@@ -1042,36 +963,0 @@
+-What are the differences between the Free, Pro, Pro+, Max, Business, and Enterprise plans?
+-GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both code completion and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
+-Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also  adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with Copilot  throughout the platform. GitHub Copilot Enterprise can index an organization’s codebase for a deeper understanding of the customer’s knowledge for more tailored suggestions and will offer customers access to fine-tuned custom, private models for code completion.
+-GitHub Copilot Pro is designed for individual developers, freelancers, students, educators, and open source maintainers. The plan includes all the features of GitHub Copilot Business except organizational license management, policy management, and IP indemnity.
+-GitHub Copilot Max is built for heavy Copilot usage, including sustained agent-driven workflows, and includes $100/month in GitHub AI Credits.
+-How can I upgrade my GitHub Copilot Free license to Copilot Pro?
+-If you're on the Free plan, you can upgrade to Pro through your
+-Copilot settings page
+-or directly on
+-the
+-Copilot marketing page
+-.
+-What is included in GitHub Copilot Free?
+-GitHub Copilot Free users are limited to 2000 completions and 50 chat requests (including Copilot Edits).
+-Which plan includes GitHub Copilot Autofix?
+-GitHub Copilot Autofix provides contextual explanations and code suggestions to help developers fix vulnerabilities in code, and is included in GitHub Advanced Security and available to all public repositories.
+-Can users in my organization use Copilot code reviews for their pull requests if they don’t have a Copilot license?
+-Organizations can now enable Copilot code review on all pull requests on github.com—including pull requests from users who are not assigned a Copilot license
+-.
+-This allows you to extend the quality and rich analysis of Copilot code review to all pull requests, regardless of its author, giving you complete coverage and confidence that pull requests have been reviewed.
+-To enable this functionality, an enterprise/org admin must first have Copilot enabled and then enabled two policies.
+-Note
+-: This capability is not supported for Copilot code reviews in VS Code or other IDEs.
+-How does billing work for Copilot code review usage generated by users without a Copilot license?
+-Usage from non-licensed users is billed directly to your organization as GitHub AI Credits. This flexible model allows you to get full review coverage on every PR without purchasing a full Copilot seat for non-development contributors who may not need Copilot.
+-Usage from your existing licensed users continues to draw from their included monthly allowance as it does today. Beginning June 1, 2026, code review workflows also consume GitHub Actions minutes.
+-Is Copilot code review usage from users without a Copilot license enabled by default? How do I control the cost?
+-No. This capability is off by default and gives the enterprise admin control to enable or disable. An admin must explicitly enable two separate policies to activate:
+-‘GitHub AI Credits paid usage’
+-must be enabled to allow enterprises to be charged for GitHub AI Credits exceeding their included usage.
+-A new Copilot code review policy (
+-‘Allow members without a Copilot license to use Copilot code review in github.com’
+-) must also be enabled.
+-We encourage admins to
+-set up budgets to control spending on our metered products
+-, especially customers who have not enabled the ‘Premium request paid usage’ policy in the past. You can track all premium request usage in your billing dashboard to monitor and control spending.
+@@ -1080 +966 @@
+-You use credits when you chat with Copilot, work with agents, or use Copilot CLI, Spaces, and Spark. Code completions and next edit suggestions don't use credits. They remain unlimited with every paid plan.
++You use credits when you chat with Copilot and work with agents. Code completions and next edit suggestions don't use credits. They remain unlimited with every paid plan.
+@@ -1081,0 +968,4 @@
++What are the differences between the Free, Pro, Pro+, Max, Business, and Enterprise plans?
++GitHub Copilot has multiple offerings for organizations and individual developers. Key differences between the plans include total GitHub AI Credits and available models. To see more information and a comparison chart between plans, please see our
++plans & pricing page
++.
+@@ -1088,0 +979,6 @@
++What is included in GitHub Copilot Free?
++GitHub Copilot Free users are limited to 2,000 completions and access to entry level models per month. If you're on the Free plan, you can upgrade to Pro through your
++Copilot settings page
++or directly on the
++Copilot marketing page
++.
+@@ -1100,2 +995,0 @@
+-Does GitHub use Copilot Business or Enterprise data to train GitHub’s model?
+-No. GitHub does not use either Copilot Business or Enterprise data to train its models.
+@@ -1103 +997 @@
+-How GitHub uses Copilot data depends on how the user accesses Copilot and for what purpose. Users can access GitHub Copilot through the web, extensions, mobile apps, computer terminal, and various IDEs (Integrated Development Environments). GitHub generally uses personal data to:
++How GitHub uses Copilot data depends on how the user accesses Copilot and for what purpose. GitHub generally uses personal data to:
+@@ -1108,2 +1002,2 @@
+-DPA
+-), which details our data handling commitments to our data controller customers. GitHub also uses certain personal data with customer authorization under the DPA, for the following purposes:
++DPA)
++, which details our data handling commitments to our data controller customers. GitHub also uses certain personal data with customer authorization under the DPA, for the following purposes:
+@@ -1114,0 +1009,3 @@
++To learn more, read more at our
++Copilot Trust Center
++.
+@@ -1128,12 +1024,0 @@
+-How long does GitHub retain Copilot data for Business and Enterprise customers?
+-If and for how long GitHub’s retains Copilot data depends on how a Copilot user accesses Copilot and for what purpose. The default settings for Copilot Business and Enterprise Customers are as follows:
+-Access through IDE for Chat and Code Completions:
+-Prompts and Suggestions: Not retained
+-User Engagement Data: Kept for two years.
+-Feedback Data: Stored for as long as needed for its intended purpose.
+-All other GitHub Copilot access and use:
+-Prompts and Suggestions: Retained for 28 days.
+-User Engagement Data: Kept for two years.
+-Feedback Data: Stored for as long as needed for its intended purpose.
+-Why do some Copilot features retain prompts and suggestions?
+-Retaining prompts and suggestions is necessary for chat on github.com, mobile, and CLI Copilot because those features’ effectiveness depends on using thread history to improve responses. The Copilot model requires access to previous interactions to deliver accurate and relevant suggestions.
+@@ -1162,0 +1048,3 @@
++GitHub Copilot also includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, please report them directly to
++copilot-safety@github.com
++so that we can improve our safeguards. GitHub takes this challenge very seriously and we are committed to addressing it.
+@@ -1164,8 +1051,0 @@
+-Does GitHub Copilot include features to make it easier for users to identify potentially relevant open source licenses for matching suggestions?
+-Yes, GitHub Copilot is previewing a
+-code referencing feature
+-as an additional tool to assist users to find and review potentially relevant open source licenses. Code referencing is currently available in Visual Studio Code. This feature searches across public GitHub repositories for code that matches a Copilot suggestion. If there’s a match, users will find its information displayed in the Copilot console log, including where the match occurred, any applicable licenses, and a deep link to learn more. The deep link will take users to a navigable page on GitHub.com to browse examples of the code match and their repository licenses, and see how many repositories—including ones without licenses—that code appears in, as well as links to those repositories. Copilot users can review this information to determine whether the applicable suggestions are suitable for use, and whether additional measures may be necessary to use them.
+-Who owns the suggestions provided by GitHub Copilot?
+-We don’t determine whether a suggestion is capable of being owned, but we are clear that GitHub does not claim ownership of a suggestion. Whether a suggestion generated by an AI model can be owned depends on many factors (e.g. the intellectual property law in the relevant country, the length of the suggestion, the extent that suggestion is considered ‘functional’ instead of expressive, etc).
+-If a suggestion is capable of being owned, our terms are clear: GitHub does not claim ownership.
+-GitHub does not claim ownership of any suggestion. In certain cases, it is possible for Copilot to produce similar suggestions to different users. For example, two unrelated users both starting new files to code the quicksort algorithm in Java will likely get the same suggestion. The possibility of providing similar suggestions to multiple users is a common part of generative AI systems.
+@@ -1181,10 +1061,3 @@
+-No. Copilot is a tool intended to make developers more efficient. It’s not intended to replace developers, who should continue to apply the same sorts of safeguards and diligence they would apply with regard to any third-party code of unknown origin.
+-The product is called “Copilot” not “Autopilot” and it’s not intended to generate code without oversight. You should use exactly the same sorts of safeguards and diligence with Copilot’s suggestions as you would use with any third-party code.
+-Identifying best practices for use of third party code is beyond the scope of this section. That said, whatever practices your organization currently uses – rigorous functionality testing, code scanning, security testing, etc. – you should continue these policies with Copilot’s suggestions. Moreover, you should make sure your code editor or editor does not automatically compile or run generated code before you review it.
+-Can GitHub Copilot users simply use suggestions without concern?
+-Not necessarily. GitHub Copilot users should align their use of Copilot with their respective risk tolerances.
+-As noted above, GitHub Copilot is not intended to replace developers, or their individual skill and judgment, and is not intended to fully automate the process of code development. The same risks that apply to the use of any third-party code apply to the use of Copilot’s suggestions.
+-Depending on your particular use case, you should consider implementing the protections discussed above. It is your responsibility to assess what is appropriate for the situation and implement appropriate safeguards.
+-You’re entitled to IP indemnification from GitHub for the unmodified suggestions when Copilot’s filtering is enabled. If you do elect to enable this feature, the copyright responsibility is ours, not our customers. As part of our ongoing commitment to responsible AI, GitHub and Microsoft extends our IP indemnity and protection support to our customers who are empowering their teams with GitHub Copilot. See
+-Microsoft's Copilot Copyright Commitment
+-for more details.
++No. GitHub Copilot is a tool intended to make developers more efficient. It’s not intended to replace developers.
++Developers should use exactly the same sorts of safeguards and diligence with Copilot’s suggestions as they would use with any third-party code.
++Practices such as rigorous functionality testing, code scanning, security testing, etc. should continue policies with Copilot’s suggestions. Moreover, you should make sure your code editor or editor does not automatically compile or run generated code before you review it.
+@@ -1192,2 +1065,2 @@
+-We are conducting internal testing of GitHub Copilot’s ease of use by developers with disabilities and working to ensure that GitHub Copilot is accessible to all developers. Please feel free to share your feedback on GitHub Copilot accessibility in our
+-feedback forum
++We are conducting internal testing of GitHub Copilot’s ease of use by developers with disabilities and working to ensure that GitHub Copilot is accessible to all developers. Learn more about accessibility at GitHub and view our detailed documentation on various accessibility topics and features, including instructions for using our products with screen readers and other assistive technologies at our
++GitHub Accessibility website
+@@ -1195,4 +1067,0 @@
+-Does GitHub Copilot produce offensive outputs?
+-GitHub Copilot includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, please report them directly to
+-copilot-safety@github.com
+-so that we can improve our safeguards. GitHub takes this challenge very seriously and we are committed to addressing it.

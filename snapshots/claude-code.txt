@@ -4,6 +4,7 @@ Products
 Claude
 Claude Code
 Claude Cowork
+Claude Duet
 Claude Tag
 Specialized
 Claude Security
@@ -1215,6 +1216,7 @@ Products
 Claude
 Claude Code
 Claude Cowork
+Claude Duet
 Claude Tag
 Claude Science
 Claude Security
@@ -1312,6 +1314,7 @@ Products
 Claude
 Claude Code
 Claude Cowork
+Claude Duet
 Claude Tag
 Claude Science
 Claude Security
