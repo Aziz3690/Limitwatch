@@ -12,7 +12,9 @@ BASE="https://aziz3690.github.io/Limitwatch"
 ACTION="https://buttondown.com/api/emails/embed-subscribe/r44e44"
 CSS="""*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;color:#1a1a1a;background:#fafafa}
 header{background:#111;color:#fff;padding:14px 20px;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
-header a{color:#fff;text-decoration:none}header .b{font-weight:700;font-size:1.2em}main{max-width:1100px;margin:auto;padding:20px}
+header a{color:#fff;text-decoration:none}header .b{font-weight:700;font-size:1.2em}
+header .brand{display:inline-flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+header a.by{color:#aaa;font-size:.8em;font-weight:400}header a.by:hover{color:#fff;text-decoration:underline}main{max-width:1100px;margin:auto;padding:20px}
 .t{overflow-x:auto}table{border-collapse:collapse;width:100%;background:#fff}th,td{border:1px solid #e3e3e3;padding:8px;text-align:left;vertical-align:top;font-size:.93em}
 th{background:#f1f1f1}.u{color:#a15c00}.m{color:#666;font-size:.85em}form{background:#fff;border:1px solid #ddd;padding:16px;border-radius:8px;margin-top:30px}
 input{padding:8px;width:min(320px,100%)}button{padding:8px 14px;background:#111;color:#fff;border:0;border-radius:4px}
@@ -21,7 +23,7 @@ input{padding:8px;width:min(320px,100%)}button{padding:8px 14px;background:#111;
 .bar-actions{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
 .bar form{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0;padding:0;border:0;background:transparent}
 .bar input{width:min(220px,100%)}.rss{font-size:.85em}
-footer{text-align:center;color:#777;font-size:.85em;padding:30px}"""
+footer{text-align:center;color:#777;font-size:.85em;padding:30px}footer a{color:#555}footer a:hover{color:#111}"""
 def mark(s): s=e(s); return s.replace("unknown",'<span class="u">unknown</span>')
 def first_sentence(summary):
     s=summary.strip()
@@ -48,10 +50,11 @@ def page(title, body, depth=0, desc="", url_path="/"):
 <meta name="twitter:title" content="{e(full)}">
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:url" content="{e(url)}">
+<meta name="twitter:creator" content="@AbuHayaaa">
 <link rel="alternate" type="application/rss+xml" title="LimitWatch changes" href="{p}feed.xml">
 <link rel="stylesheet" href="{p}style.css"></head><body>
-<header><a class="b" href="{p}index.html">LimitWatch</a><a href="{p}index.html">Compare</a><a href="{p}changes.html">What changed</a><a href="{p}index.html#subscribe">Newsletter</a></header>
-<main>{signup_bar(p)}{body}</main><footer>Data checked {T['checked']}. Always verify on the vendor's official page. Not affiliated with any vendor.</footer></body></html>"""
+<header><span class="brand"><a class="b" href="{p}index.html">LimitWatch</a><a class="by" href="https://x.com/AbuHayaaa">by @AbuHayaaa</a></span><a href="{p}index.html">Compare</a><a href="{p}changes.html">What changed</a><a href="{p}index.html#subscribe">Newsletter</a></header>
+<main>{signup_bar(p)}{body}</main><footer>Data checked {T['checked']}. Always verify on the vendor's official page. Not affiliated with any vendor.<br><a href="https://x.com/AbuHayaaa">Made by @AbuHayaaa on X</a></footer></body></html>"""
 SUB=f"""<form id="subscribe" action="{ACTION}" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/r44e44', 'popupwindow')">
 <h3>Get alerts when plans or limits change</h3><input type="email" name="email" required placeholder="you@example.com"> <input type="hidden" name="embed" value="1"> <button>Subscribe</button><p class="m">Weekly email when AI coding plans change. Free, unsubscribe anytime.</p></form>"""
 def write_feed():
