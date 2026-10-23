@@ -664,6 +664,9 @@ Use API/provider credentials
 Roll out a gateway
 Gateway compatibility
 Bedrock through LiteLLM
+ChatGPT EDU
+Education plans
+Higher education setup
 ChatGPT Work
 Overview
 Cloud security
