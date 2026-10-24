@@ -41,7 +41,7 @@ Blog
 Newsroom
 Contact sales
 Log in
-Create account
+Sign up
 Products
 CREATE
 Design
@@ -82,7 +82,7 @@ Gallery
 Blog
 Newsroom
 Log in
-Create account
+Sign up
 Pricing
 Choose the best plan for you.
 Monthly

@@ -183,6 +183,7 @@ Sessions
 Run and continue sessions
 Events and items
 Manage sessions
+Scheduled automations
 Webhooks
 Environments and sandboxes
 OpenAI-hosted sandboxes
@@ -580,6 +581,7 @@ Cloud environments
 Build with Codex
 Codex SDK
 App Server
+Model catalogs
 GitHub Action
 Non-interactive mode
 Third-party integrations
@@ -819,8 +821,8 @@ Feature Maturity
 Open Source
 Copy Page
 Pricing
-ChatGPT Work and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
 Copy Page
+ChatGPT Work and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
 ChatGPT Work and Codex share usage.
 ChatGPT Work usage inside
 ChatGPT uses the same pricing, credits, and usage limits as Codex.
