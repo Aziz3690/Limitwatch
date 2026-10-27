@@ -1,0 +1,22 @@
+--- previous
++++ current
+@@ -58 +58 @@
+-$18
++$25
+@@ -61,5 +61 @@
+-Total of
+-$216
+-$300
+-/ year
+-Billed annually
++Billed monthly
+@@ -76 +72 @@
+-$27
++$30
+@@ -79,5 +75 @@
+-Total of
+-$324
+-$360
+-/ year
+-Per member, billed annually
++Per member, billed monthly

@@ -550,6 +550,7 @@ OpenAI GPT-6 Astra
 OpenAI GPT-6 Luna
 OpenAI GPT-6 Sol
 OpenAI GPT-6.1 Sol
+OpenAI GPT-6.1 Terra
 Microsoft MAI-Code-1.1-Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
@@ -586,6 +587,7 @@ OpenAI GPT-6 Astra
 OpenAI GPT-6 Luna
 OpenAI GPT-6 Sol
 OpenAI GPT-6.1 Sol
+OpenAI GPT-6.1 Terra
 Microsoft MAI-Code-1.1-Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
@@ -622,6 +624,7 @@ OpenAI GPT-6 Astra
 OpenAI GPT-6 Luna
 OpenAI GPT-6 Sol
 OpenAI GPT-6.1 Sol
+OpenAI GPT-6.1 Terra
 Microsoft MAI-Code-1.1-Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash
@@ -658,6 +661,7 @@ OpenAI GPT-6 Astra
 OpenAI GPT-6 Luna
 OpenAI GPT-6 Sol
 OpenAI GPT-6.1 Sol
+OpenAI GPT-6.1 Terra
 Microsoft MAI-Code-1.1-Flash
 Google Gemini 3.7 Flash
 Google Gemini 3.8 Flash

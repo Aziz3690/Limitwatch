@@ -982,6 +982,9 @@ GPT-6 Astra
 GPT-6.1 Sol
 15-160
 15-160
+GPT-6.1 Terra
+35-285
+35-285
 GPT-6 Sol
 15-150
 15-150
@@ -1114,6 +1117,10 @@ GPT-6.1 Sol
 50 credits
 2.5 credits
 250 credits
+GPT-6.1 Terra
+25 credits
+1.25 credits
+125 credits
 GPT-6 Sol
 50 credits
 5 credits
@@ -1220,6 +1227,12 @@ In ChatGPT, GPT-6.1 Sol is available in Work and Codex, not Chat. For Enterprise
 and Edu, the model is off by default until an administrator enables it. Using
 it in ChatGPT Work or Codex also requires access to the respective surface.
 API-key access follows API model availability.
+GPT-6.1 Terra
+is available in Work and Codex on
+Plus, Pro, Business, Enterprise, and Edu plans. It does not support
+UAE inference residency. It isn’t available in Chat. Access requires the corresponding
+surface; Enterprise access also depends on workspace availability and
+administrator controls. Overall Work and Codex plan limits are unchanged.
 Feature
 ChatGPT Plus
 ChatGPT Pro
@@ -1245,6 +1258,7 @@ ChatGPT for Excel
 —
 Models and multimodal
 GPT-6.1 Sol
+GPT-6.1 Terra
 GPT-6 Sol and Luna
 Fast mode
 Ultrafast (Pro $500 and eligible Enterprise/Edu plans)
@@ -1409,6 +1423,7 @@ Automation access tokens
 ChatGPT for Excel
 Models and multimodal
 GPT-6.1 Sol
+GPT-6.1 Terra
 GPT-6 Sol and Luna
 Fast mode
 Ultrafast (Pro $500 and eligible Enterprise/Edu plans)
