@@ -7,6 +7,7 @@ from email.utils import format_datetime
 
 R=pathlib.Path(__file__).resolve().parent.parent; D=R/"dist"
 T=json.load(open(R/"data/tools.json")); C=sorted(json.load(open(R/"data/changes.json")),key=lambda c:c["date"],reverse=True)
+AUTO=json.load(open(R/"data/watch.json"))["last_check"]
 e=html.escape
 BASE="https://aziz3690.github.io/Limitwatch"
 ACTION="https://buttondown.com/api/emails/embed-subscribe/r44e44"
@@ -54,7 +55,7 @@ def page(title, body, depth=0, desc="", url_path="/"):
 <link rel="alternate" type="application/rss+xml" title="LimitWatch changes" href="{p}feed.xml">
 <link rel="stylesheet" href="{p}style.css"></head><body>
 <header><span class="brand"><a class="b" href="{p}index.html">LimitWatch</a><a class="by" href="https://x.com/AbuHayaaa">by @AbuHayaaa</a></span><a href="{p}index.html">Compare</a><a href="{p}changes.html">What changed</a><a href="{p}index.html#subscribe">Newsletter</a></header>
-<main>{signup_bar(p)}{body}</main><footer>Data checked {T['checked']}. Always verify on the vendor's official page. Not affiliated with any vendor.<br><a href="https://x.com/AbuHayaaa">Made by @AbuHayaaa on X</a></footer></body></html>"""
+<main>{signup_bar(p)}{body}</main><footer>Pricing pages auto-checked daily, last check {e(AUTO)}. Plan details manually verified {e(T['checked'])}. Always verify on the vendor's official page. Not affiliated with any vendor.<br><a href="https://x.com/AbuHayaaa">Made by @AbuHayaaa on X</a></footer></body></html>"""
 SUB=f"""<form id="subscribe" action="{ACTION}" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/r44e44', 'popupwindow')">
 <h3>Get alerts when plans or limits change</h3><input type="email" name="email" required placeholder="you@example.com"> <input type="hidden" name="embed" value="1"> <button>Subscribe</button><p class="m">Weekly email when AI coding plans change. Free, unsubscribe anytime.</p></form>"""
 def write_feed():
@@ -79,7 +80,7 @@ if D.exists(): shutil.rmtree(D)
 (D/"tools").mkdir(parents=True); (D/"style.css").write_text(CSS)
 rows=""
 for t in T["tools"]:
-    rows+=f"<tr><td><a href='tools/{t['id']}.html'><b>{e(t['name'])}</b></a><br><span class=m>{e(t['category'])}</span></td><td>{'<br>'.join(e(p['name']+': '+p['price']) for p in t['plans'])}</td><td>{mark(t['reset'])}</td><td>{mark(t['overage'])}</td><td class=m><a href='{e(t['url'])}'>source</a><br>{t['checked']}</td></tr>"
+    rows+=f"<tr><td><a href='tools/{t['id']}.html'><b>{e(t['name'])}</b></a><br><span class=m>{e(t['category'])}</span></td><td>{'<br>'.join(e(p['name']+': '+p['price']) for p in t['plans'])}</td><td>{mark(t['reset'])}</td><td>{mark(t['overage'])}</td><td class=m><a href='{e(t['url'])}'>source</a><br>manually verified {e(t['checked'])}</td></tr>"
 home_desc=f"Prices, credits and rate limits for {len(T['tools'])} AI coding tools, sourced from official pricing pages."
 home=f"<h1>AI coding tool plans, limits &amp; reset windows</h1><p>Prices, credits and rate limits for {len(T['tools'])} AI coding tools, sourced from official pricing pages. Items we couldn't verify are marked <span class=u>unknown</span>.</p><div class=t><table><tr><th>Tool</th><th>Plans &amp; prices</th><th>Limits reset</th><th>Overage</th><th>Source</th></tr>{rows}</table></div><h2>Latest changes</h2><ul>"+"".join(f"<li><b>{c['date']}</b> {e(c['tool'])}: {e(c['summary'])}</li>" for c in C[:5])+"</ul><a href='changes.html'>All changes →</a>"+SUB
 (D/"index.html").write_text(page("Compare",home,desc=home_desc,url_path="/"))
@@ -87,7 +88,7 @@ for t in T["tools"]:
     pr="".join(f"<tr><td>{e(p['name'])}</td><td>{mark(p['price'])}</td><td>{mark(p['limits'])}</td></tr>" for p in t["plans"])
     ch="".join(f"<li><b>{c['date']}</b> {e(c['summary'])} <a href='{e(c['source'])}'>source</a></li>" for c in C if c["tool"].split()[0].lower() in t["name"].lower()) or "<li>No sourced changes recorded yet.</li>"
     alert=f"<p class=m><a href='#subscribe'>Get alerted when {e(t['name'])} changes its plan</a></p>"
-    b=f"<h1>{e(t['name'])}</h1><p>{mark(t['notes'])}</p><p><b>Reset window:</b> {mark(t['reset'])}<br><b>Overage:</b> {mark(t['overage'])}</p><div class=t><table><tr><th>Plan</th><th>Price</th><th>Included usage / limits</th></tr>{pr}</table></div><p class=m>Source: <a href='{e(t['url'])}'>{e(t['url'])}</a> · checked {t['checked']}</p><h2>Change history</h2>{alert}<ul>{ch}</ul>"+SUB
+    b=f"<h1>{e(t['name'])}</h1><p>{mark(t['notes'])}</p><p><b>Reset window:</b> {mark(t['reset'])}<br><b>Overage:</b> {mark(t['overage'])}</p><div class=t><table><tr><th>Plan</th><th>Price</th><th>Included usage / limits</th></tr>{pr}</table></div><p class=m>Source: <a href='{e(t['url'])}'>{e(t['url'])}</a> · manually verified {e(t['checked'])}</p><h2>Change history</h2>{alert}<ul>{ch}</ul>"+SUB
     (D/"tools"/f"{t['id']}.html").write_text(page(t["name"],b,1,desc=t["notes"],url_path=f"/tools/{t['id']}.html"))
 changes_desc="Dated changes to AI coding tool prices, credits, and rate limits, each with a source."
 cl="<h1>What changed</h1><div class=t><table><tr><th>Date</th><th>Tool</th><th>Change</th><th>Source</th></tr>"+"".join(f"<tr><td>{c['date']}</td><td>{e(c['tool'])}</td><td>{e(c['summary'])}</td><td><a href='{e(c['source'])}'>link</a></td></tr>" for c in C)+"</table></div>"
