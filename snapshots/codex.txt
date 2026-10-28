@@ -396,6 +396,7 @@ Request a client ID
 Identity
 On your website
 In your ChatGPT plugin
+Account security notification
 ChatGPT plan usage
 Overview
 UI/UX guidelines
@@ -661,8 +662,6 @@ Workspace model availability
 Amazon Bedrock
 Bedrock GovCloud configuration
 Connect to a gateway
-Sign in with ChatGPT
-Use API/provider credentials
 Roll out a gateway
 Gateway compatibility
 Bedrock through LiteLLM
