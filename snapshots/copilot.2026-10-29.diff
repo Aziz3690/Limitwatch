@@ -1,0 +1,218 @@
+--- previous
++++ current
+@@ -1 +1 @@
+-GitHub Copilot · Plans & pricing · GitHub
++GitHub Copilot · Plans & pricing for every developer & team · GitHub · GitHub
+@@ -3,5 +3,2 @@
+-GitHub Universe 2026
+-Day 1: Opening Keynote begins in
+-•
+-Day 1: Opening Keynote begins October 28 at 9 AM Pacific Time
+-Register virtually
++GitHub Enterprise now includes access to GitHub Copilot.
++Learn more
+@@ -9,0 +7 @@
++Products
+@@ -11,8 +9,5 @@
+-AI CODE CREATION
+-GitHub Copilot
+-Write better code with AI
+-GitHub Copilot app
+-Direct agents from issue to merge
+-MCP Registry
+-Integrate external tools
+-DEVELOPER WORKFLOWS
++GitHub
++Repository hosting, code review, and collaboration
++Copilot
++AI coding agent for tasks, projects and automated work
++Build & Ship
+@@ -20 +15,3 @@
+-Automate any workflow
++CI/CD and automation
++Code Quality
++Quality analysis, fixes, and enforcement
+@@ -22,16 +19,9 @@
+-Instant dev environments
+-Issues
+-Plan and track work
+-Code Review
+-Manage code changes
+-Code Quality
+-Enforce quality at merge
+-APPLICATION SECURITY
+-GitHub Advanced Security
+-Find and fix vulnerabilities
+-Code security
+-Secure your code as you build
+-Secret protection
+-Stop leaks before they start
+-EXPLORE
+-Why GitHub
++Cloud development environments
++Secure
++Code Security
++Vulnerability detection and remediation
++Secret Protection
++Secret scanning and leak prevention
++All Features
++Developers
++Learn
+@@ -39 +29,10 @@
+-Blog
++Training
++Certifications
++Build
++Build with Copilot
++Customize Copilot
++Integrations
++Explore
++Trending repos
++GitHub Sponsors
++Events
+@@ -41,4 +40,4 @@
+-Marketplace
+-View all features
+-Solutions
+-BY COMPANY SIZE
++Changelog
++Your source for the latest features, improvements, and fixes across GitHub products, all in one place.
++Businesses
++By Stage
+@@ -46 +45 @@
+-Small and medium teams
++Team
+@@ -49,7 +48 @@
+-BY USE CASE
+-App Modernization
+-DevSecOps
+-DevOps
+-CI/CD
+-View all use cases
+-BY INDUSTRY
++By Industry
+@@ -61,12 +54,3 @@
+-View all solutions
+-Resources
+-EXPLORE BY TOPIC
+-AI
+-Software Development
+-DevOps
+-Security
+-View all topics
+-EXPLORE BY TYPE
+-Customer stories
+-Events & webinars
+-Ebooks & reports
++Evaluate GitHub
++Why GitHub
++Customer Stories
+@@ -74,26 +58,2 @@
+-GitHub Skills
+-SUPPORT & SERVICES
+-Documentation
+-Customer support
+-Community forum
+-Trust center
+-Partners
+-View all resources
+-Open Source
+-COMMUNITY
+-GitHub Sponsors
+-Fund open source developers
+-PROGRAMS
+-Security Lab
+-Maintainer Community
+-GitHub Stars
+-Archive Program
+-REPOSITORIES
+-Topics
+-Trending
+-Collections
+-Enterprise
+-ENTERPRISE SOLUTIONS
+-Enterprise platform
+-AI-powered developer platform
+-AVAILABLE ADD-ONS
++Trust Center
++Add-ons
+@@ -101,2 +61,2 @@
+-Enterprise-grade security features
+-Copilot for Business
++Enterprise-grade code security
++Copilot for business
+@@ -105,0 +66,20 @@
++Resources
++Learn & Connect
++Documentation
++Resource center
++Blog
++Events & webinars
++Community Forum
++Customer Stories
++Integrations
++Support
++Customer support
++Training
++GitHub Status
++Company
++About
++Partners
++Changelog
++GitHub Universe
++GitHub Universe
++The event for developers, by developers — talks, workshops, and what’s next for GitHub.
+@@ -121,10 +100,0 @@
+-AI
+-GitHub Copilot
+-Desktop App
+-Copilot in VS Code
+-Agents on GitHub
+-Copilot CLI
+-For Business
+-Tutorials
+-Plans & Pricing
+-More
+@@ -375,2 +345,2 @@
+-Cloud agent
+-Cloud agent
++Copilot in the cloud
++Copilot in the cloud
+@@ -1080,3 +1050,4 @@
+-Platform
+-Features
+-Enterprise
++Products
++GitHub
++Actions
++Code Quality
+@@ -1084,2 +1055,3 @@
+-AI
+-Security
++Codespaces
++Code Security
++Secret Protection
+@@ -1091 +1063,2 @@
+-Ecosystem
++All Features
++Developers
+@@ -1093 +1065,0 @@
+-Partners
+@@ -1098 +1070 @@
+-GitHub Marketplace
++Integrations
+@@ -1099,0 +1072,2 @@
++Training
++Build with Copilot
+@@ -1105,2 +1079 @@
+-Skills
+-Status
++GitHub Status
+@@ -1108 +1080,0 @@
+-What is Git?
+@@ -1115 +1086,0 @@
+-The ReadME Project
+@@ -1117,0 +1089 @@
++Partners
+@@ -1119,0 +1092 @@
++What is Git?
