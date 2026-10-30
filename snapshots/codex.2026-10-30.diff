@@ -1,0 +1,5 @@
+--- previous
++++ current
+@@ -682 +682 @@
+-Plugin management
++Import and sync plugins from GitHub

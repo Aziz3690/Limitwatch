@@ -1,4 +1,3 @@
-Plans & pricing | Claude by Anthropic
 Skip to main content
 Product
 Products
@@ -6,6 +5,7 @@ Claude
 Claude Code
 Claude Cowork
 Claude Duet
+Claude Platform
 Claude Tag
 Specialized
 Claude Security
@@ -33,6 +33,7 @@ Developers
 Build with
 Claude Code
 Claude Platform
+Managed Agents
 For developers
 Claude Academy
 Community
@@ -48,7 +49,6 @@ Use Cases
 AI Agents
 Coding
 Commerce
-Managed Agents
 Departments
 Customer support
 Cybersecurity
@@ -1212,6 +1212,10 @@ how to cancel a Pro or Max plan
 or
 cancel a Team plan
 .
+Does Claude offer volume discounts?
+Yes, Claude Enterprise and Claude API pricing can be customized for your organization with volume and committed-spend discounts through our sales team. We don't publish discount rates, so figures you see elsewhere may not reflect our pricing.
+Contact sales
+to learn more.
 © 2026 Anthropic PBC
 Products
 Claude
@@ -1419,3 +1423,4 @@ Français
 한국어
 Italiano
 Español
+Plans & pricing | Claude by Anthropic
