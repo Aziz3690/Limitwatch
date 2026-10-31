@@ -75,11 +75,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add snapshots
+          git add snapshots data/watch.json
           if git diff --cached --quiet; then
-            echo "No snapshot changes to commit."
+            echo "No snapshot or check-date changes to commit."
             exit 0
           fi
-          git commit -m "Update pricing page snapshots"
+          if git diff --cached --name-only -- snapshots | grep -q .; then
+            git commit -m "Update pricing page snapshots"
+          else
+            git commit -m "Record daily pricing page check"
+          fi
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -5,7 +5,20 @@ import json, pathlib, re, sys, difflib, datetime, urllib.request
 from bs4 import BeautifulSoup
 R=pathlib.Path(__file__).resolve().parent.parent; S=R/"snapshots"; S.mkdir(exist_ok=True)
 UA={"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) Chrome/130 LimitWatch/0.1"}
-changed=False; report=[]
+def stamp_last_check():
+    date=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+    p=R/"data"/"watch.json"
+    data={"last_check":date}
+    if p.exists():
+        try:
+            old=json.loads(p.read_text())
+            if isinstance(old, dict):
+                old["last_check"]=date; data=old
+        except json.JSONDecodeError:
+            pass
+    p.write_text(json.dumps(data, indent=2)+"\n")
+    return date
+changed=False; report=[]; fetched=0
 for t in json.load(open(R/"data/tools.json"))["tools"]:
     try:
         raw=urllib.request.urlopen(urllib.request.Request(t["url"],headers=UA),timeout=30).read().decode("utf-8","ignore")
@@ -24,5 +37,7 @@ for t in json.load(open(R/"data/tools.json"))["tools"]:
             (S/f"{t['id']}.{datetime.date.today()}.diff").write_text("\n".join(d))
         else: report.append(f"ok {t['id']}: no change")
     else: report.append(f"++ {t['id']}: first snapshot saved")
-    f.write_text(new)
+    f.write_text(new); fetched+=1
+if fetched: report.append(f"last_check {stamp_last_check()}")
+else: report.append("last_check unchanged (no pricing page fetched)")
 print("\n".join(report)); sys.exit(1 if changed else 0)

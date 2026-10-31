@@ -31,7 +31,7 @@
   {"name":"Business","price":"$20/user/mo annual (2+ users); $25 monthly","limits":"Extend with credits"},
   {"name":"Enterprise & Edu","price":"Contact sales","limits":"unknown"}]},
 {"id":"copilot","name":"GitHub Copilot","category":"IDE assistant","url":"https://github.com/features/copilot/plans","checked":"2026-10-16",
- "notes":"Usage-based GitHub AI Credits (1 credit = $0.01) since June 1, 2026. Completions unlimited on paid plans.",
+ "notes":"Usage-based GitHub AI Credits (1 credit = $0.01) since June 1, 2026. Completions unlimited on paid plans. Auto model selection discount ended 2026-10-28 (was 30% for Max, 10% for other paid plans).",
  "reset":"Monthly","overage":"Paid usage with dollar budget",
  "plans":[
   {"name":"Free","price":"$0","limits":"2,000 completions + 50 chat requests"},
