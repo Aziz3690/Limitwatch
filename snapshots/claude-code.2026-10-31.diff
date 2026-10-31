@@ -1,0 +1,920 @@
+--- previous
++++ current
+@@ -95,5 +94,0 @@
+-Latest news
+-Claude Cowork is now just Claude.
+-Rolling out to Pro and Max, with more plans to follow.
+-Read what changed
+-(opens in new tab)
+@@ -108,0 +104,3 @@
++Limited usage
++every 5 hours and every week
++*
+@@ -125 +123,5 @@
+-More usage*
++More usage than Free
++, every 5 hours and every week
++*
++Fable, paid with usage credits
++New
+@@ -134,2 +136,2 @@
+-For people who work with Claude all day
+-From $100
++For all-day work
++$100
+@@ -139,2 +141,7 @@
+-Choose 5x or 20x more usage than Pro*
+-Higher output limits for all tasks
++5x Pro usage
++every 5 hours and every week*
++Fable included, up to half your weekly limit
++New
++$100 a month in API credits to build on the Claude Platform
++†
++New
+@@ -143 +150,11 @@
+-$100 to $200/month in API credits to build on the Claude Platform
++Ultra
++For your longest tasks
++$200
++Per month
++Try Claude
++Everything in Max, plus:
++No 5-hour limit
++‡
++10x Pro usage
++every week*
++$200 a month in API credits, up from $100 on Max
+@@ -144,0 +162,2 @@
++New
++*
+@@ -146,3 +165,8 @@
+-apply. Prices shown don’t include applicable tax. Price and plans are subject to change at Anthropic's discretion.
+-Usage limits
+-apply. Price and plans are subject to change at Anthropic's discretion.
++apply.
++How fast you reach a limit depends on the model you use, how long your chats are, and how large your files are.
++‡
++No 5-hour limit for
++verified accounts
++.
++Prices shown don’t include applicable tax. Price and plans are subject to change at Anthropic's discretion.
++Price and plans are subject to change at Anthropic's discretion.
+@@ -158 +182 @@
+-Max 5x
++Max
+@@ -160 +184 @@
+-Max 20x
++Ultra
+@@ -166,7 +190,44 @@
+-Max 5x
+-Max 20x
+-@Claude
+-No
+-No
+-No
+-No
++Max
++Ultra
++Chat on web, iOS, Android and Desktop
++Yes
++Yes
++Yes
++Yes
++Hand off and schedule tasks
++No
++Yes
++Yes
++Yes
++Create Artifacts
++More information
++Yes
++Yes
++Yes
++Yes
++Claude Dashboards (beta)
++No
++Yes
++Yes
++Yes
++Claude Design
++Yes
++Yes
++Yes
++Yes
++Claude Docs
++Yes
++Yes
++Yes
++Yes
++Claude Motion (beta)
++More information
++No
++No
++No
++No
++Claude Slides
++Yes
++Yes
++Yes
++Yes
+@@ -177,0 +239,15 @@
++Claude for Microsoft 365
++No
++Yes
++Yes
++Yes
++Claude for Microsoft Outlook
++No
++Yes
++Yes
++Yes
++Claude in Chrome
++No
++Yes
++Yes
++Yes
+@@ -183,51 +259,13 @@
+-Claude in Chrome
+-No
+-Yes
+-Yes
+-Yes
+-Claude for Microsoft 365
+-No
+-Yes
+-Yes
+-Yes
+-Claude for Microsoft Outlook
+-No
+-Yes
+-Yes
+-Yes
+-Chat on web, iOS, Android and Desktop
+-Yes
+-Yes
+-Yes
+-Yes
+-Claude Design
+-Yes
+-Yes
+-Yes
+-Yes
+-Claude Slides
+-Yes
+-Yes
+-Yes
+-Yes
+-Claude Docs
+-Yes
+-Yes
+-Yes
+-Yes
+-Claude Dashboards (beta)
+-No
+-Yes
+-Yes
+-Yes
+-Claude Motion (beta)
+-No
+-No
+-No
+-No
+-Ability to search the web
+-Yes
+-Yes
+-Yes
+-Yes
+-Create Artifacts
++Claude Tag
++More information
++No
++No
++No
++No
++Connectors
++More information
++Yes
++Yes
++Yes
++Yes
++Create and edit files with code execution
+@@ -244,5 +282,6 @@
+-Voice mode
+-Yes
+-Yes
+-Yes
+-Yes
++Enterprise search
++More information
++No
++No
++No
++No
+@@ -255,5 +294,11 @@
+-User preferences
+-Yes
+-Yes
+-Yes
+-Yes
++Memory
++Yes
++Yes
++Yes
++Yes
++Project sharing and collaboration
++More information
++No
++No
++No
++No
+@@ -265,11 +309,0 @@
+-Project sharing and collaboration
+-No
+-No
+-No
+-No
+-Create and edit files with code execution
+-More information
+-Yes
+-Yes
+-Yes
+-Yes
+@@ -281,5 +314,0 @@
+-Memory
+-Yes
+-Yes
+-Yes
+-Yes
+@@ -292,2 +321,6 @@
+-Connectors
+-More information
++User preferences
++Yes
++Yes
++Yes
++Yes
++Voice mode
+@@ -303,6 +336,78 @@
+-Enterprise search
+-More information
+-No
+-No
+-No
+-No
++Models and usage
++Features
++Free
++Pro
++Max
++Ultra
++Limit every 5 hours
++Limited
++1x
++5x
++No 5-hour limit
++‡
++Limit every week
++Limited
++1x
++5x
++10x
++Fable
++More information
++No
++Usage credits
++50% of weekly limits*
++50% of weekly limits*
++Opus
++No
++Yes
++Yes
++Yes
++Sonnet
++Yes
++Yes
++Yes
++Yes
++Haiku
++Yes
++Yes
++Yes
++Yes
++Context window
++More information
++Up to 1M
++varies by model
++Up to 1M
++varies by model
++Up to 1M
++varies by model
++Up to 1M
++varies by model
++Usage credits
++More information
++No
++Yes
++Yes
++Yes
++New
++Monthly API credits
++†
++No
++No
++$100/month
++$200/month
++Priority access at high traffic times
++No
++No
++Yes
++Yes
++User and organizational level spend controls
++More information
++No
++No
++No
++No
++Model training
++More information
++Opt-out
++Opt-out
++Opt-out
++Opt-out
+@@ -313,2 +418,2 @@
+-Max 5x
+-Max 20x
++Max
++Ultra
+@@ -315,0 +421 @@
++More information
+@@ -320,0 +427 @@
++More information
+@@ -325,0 +433 @@
++More information
+@@ -330,0 +439 @@
++More information
+@@ -335,0 +445 @@
++More information
+@@ -340,0 +451 @@
++More information
+@@ -345,0 +457 @@
++More information
+@@ -350,0 +463 @@
++More information
+@@ -355,0 +469 @@
++More information
+@@ -360,0 +475 @@
++More information
+@@ -365,0 +481 @@
++More information
+@@ -370,0 +487 @@
++More information
+@@ -379,2 +496,2 @@
+-Max 5x
+-Max 20x
++Max
++Ultra
+@@ -386,0 +504 @@
++More information
+@@ -391,0 +510 @@
++More information
+@@ -406,66 +524,0 @@
+-Models and usage
+-Features
+-Free
+-Pro
+-Max 5x
+-Max 20x
+-Fable
+-More information
+-No
+-Usage credits
+-50% of weekly limits*
+-50% of weekly limits*
+-Opus
+-No
+-Yes
+-Yes
+-Yes
+-Sonnet
+-Yes
+-Yes
+-Yes
+-Yes
+-Haiku
+-Yes
+-Yes
+-Yes
+-Yes
+-Context window
+-More information
+-Up to 1M
+-varies by model
+-Up to 1M
+-varies by model
+-Up to 1M
+-varies by model
+-Up to 1M
+-varies by model
+-Usage credits
+-More information
+-No
+-Yes
+-Yes
+-Yes
+-New
+-Monthly API credits
+-†
+-No
+-No
+-$100/month
+-$200/month
+-Priority access at high traffic times
+-No
+-No
+-Yes
+-Yes
+-User and organizational level spend controls
+-No
+-No
+-No
+-No
+-Model training
+-More information
+-Opt-out
+-Opt-out
+-Opt-out
+-Opt-out
+@@ -491 +544 @@
+-Microsoft 365, @Claude, and more
++Microsoft 365, Claude Tag, and more
+@@ -547 +600,31 @@
+-@Claude
++Chat on web, iOS, Android and Desktop
++Yes
++Yes
++Yes
++Create Artifacts
++More information
++Yes
++Yes
++Yes
++Claude Dashboards (beta)
++More information
++Yes
++Yes
++Yes
++Claude Design
++More information
++Yes
++Yes
++Yes
++Claude Docs
++More information
++Yes
++Yes
++Yes
++Claude Motion (beta)
++More information
++Yes
++Yes
++Yes
++Claude Slides
++More information
+@@ -554,0 +638,12 @@
++Claude for Microsoft 365
++Yes
++Yes
++Yes
++Claude for Microsoft Outlook
++Yes
++Yes
++Yes
++Claude in Chrome
++Yes
++Yes
++Yes
+@@ -564,46 +659,10 @@
+-Claude in Chrome
+-Yes
+-Yes
+-Yes
+-Claude for Microsoft 365
+-Yes
+-Yes
+-Yes
+-Claude for Microsoft Outlook
+-Yes
+-Yes
+-Yes
+-Chat on web, iOS, Android and Desktop
+-Yes
+-Yes
+-Yes
+-Claude Design
+-More information
+-Yes
+-Yes
+-Yes
+-Claude Slides
+-More information
+-Yes
+-Yes
+-Yes
+-Claude Docs
+-More information
+-Yes
+-Yes
+-Yes
+-Claude Dashboards (beta)
+-More information
+-Yes
+-Yes
+-Yes
+-Claude Motion (beta)
+-More information
+-Yes
+-Yes
+-Yes
+-Ability to search the web
+-Yes
+-Yes
+-Yes
+-Create Artifacts
++Claude Tag
++Yes
++Yes
++Yes
++Connectors
++More information
++Yes
++Yes
++Yes
++Create and edit files with code execution
+@@ -617,0 +677,35 @@
++Enterprise search
++More information
++Yes
++Yes
++Yes
++Incognito chats
++More information
++Yes
++Yes
++Yes
++Memory
++Yes
++Yes
++Yes
++Project sharing and collaboration
++Yes
++Yes
++Yes
++Projects
++Yes
++Yes
++Yes
++Research
++Yes
++Yes
++Yes
++Skills
++More information
++Yes
++Yes
++Yes
++User preferences
++Yes
++Yes
++Yes
+@@ -622,40 +715,0 @@
+-Incognito chats
+-More information
+-Yes
+-Yes
+-Yes
+-User preferences
+-Yes
+-Yes
+-Yes
+-Projects
+-Yes
+-Yes
+-Yes
+-Project sharing and collaboration
+-Yes
+-Yes
+-Yes
+-Create and edit files with code execution
+-More information
+-Yes
+-Yes
+-Yes
+-Research
+-Yes
+-Yes
+-Yes
+-Memory
+-Yes
+-Yes
+-Yes
+-Skills
+-More information
+-Yes
+-Yes
+-Yes
+-Connectors
+-More information
+-Yes
+-Yes
+-Yes
+@@ -665,135 +718,0 @@
+-Yes
+-Enterprise search
+-More information
+-Yes
+-Yes
+-Yes
+-Security and administration
+-Features
+-Team
+-Enterprise (self-serve)
+-Enterprise (sales-assisted)
+-Single sign-on (SSO)
+-Yes
+-Yes
+-Yes
+-Domain verification
+-Yes
+-Yes
+-Yes
+-Restrict org creation
+-More information
+-Yes
+-Yes
+-Yes
+-Migrate accounts using your domains
+-More information
+-No
+-Yes
+-Yes
+-Central billing and administration
+-Yes
+-Yes
+-Yes
+-Admin controls for remote and local connectors
+-Yes
+-Yes
+-Yes
+-Enterprise deployment for the Claude desktop app
+-Yes
+-Yes
+-Yes
+-Usage analytics
+-Yes
+-Yes
+-Yes
+-Organization wide skills deployment
+-Yes
+-Yes
+-Yes
+-Domain capture
+-No
+-Yes
+-Yes
+-Role-based access
+-No
+-Yes
+-Yes
+-System for Cross-domain Identity Management (SCIM)
+-No
+-Yes
+-Yes
+-Audit logs
+-No
+-Yes
+-Yes
+-Compliance API
+-No
+-Yes
+-Yes
+-Custom data retention controls
+-No
+-Yes
+-Yes
+-Set org instructions
+-More information
+-Yes
+-Yes
+-Yes
+-HIPAA-ready offering
+-No
+-Yes
+-Yes
+-Inference hooks
+-No
+-Yes
+-Yes
+-Payment options
+-Features
+-Team
+-Enterprise (self-serve)
+-Enterprise (sales-assisted)
+-Credit card
+-Yes
+-Yes
+-Yes
+-ACH
+-No
+-Yes
+-Yes
+-Invoicing / net terms
+-No
+-No
+-Yes
+-Billing cycle
+-Monthly and annual
+-Annual
+-Annual
+-Adding seats midterm
+-Yes
+-Yes
+-Yes
+-Partnership
+-Features
+-Team
+-Enterprise (self-serve)
+-Enterprise (sales-assisted)
+-AWS Marketplace availability
+-No
+-No
+-Yes
+-Consultation
+-No
+-No
+-Yes
+-Tiered incentives on committed spend
+-No
+-No
+-Yes
+-Trials
+-No
+-No
+-Yes
+-Customer success support at certain spend thresholds
+-No
+-No
+@@ -855,0 +775,130 @@
++Security and administration
++Features
++Team
++Enterprise (self-serve)
++Enterprise (sales-assisted)
++Single sign-on (SSO)
++Yes
++Yes
++Yes
++Domain verification
++Yes
++Yes
++Yes
++Restrict org creation
++More information
++Yes
++Yes
++Yes
++Migrate accounts using your domains
++More information
++No
++Yes
++Yes
++Central billing and administration
++Yes
++Yes
++Yes
++Admin controls for remote and local connectors
++Yes
++Yes
++Yes
++Enterprise deployment for the Claude desktop app
++Yes
++Yes
++Yes
++Usage analytics
++Yes
++Yes
++Yes
++Organization wide skills deployment
++Yes
++Yes
++Yes
++Domain capture
++No
++Yes
++Yes
++Role-based access
++No
++Yes
++Yes
++System for Cross-domain Identity Management (SCIM)
++No
++Yes
++Yes
++Audit logs
++No
++Yes
++Yes
++Compliance API
++No
++Yes
++Yes
++Custom data retention controls
++No
++Yes
++Yes
++Set org instructions
++More information
++Yes
++Yes
++Yes
++HIPAA-ready offering
++No
++Yes
++Yes
++Inference hooks
++No
++Yes
++Yes
++Partnership
++Features
++Team
++Enterprise (self-serve)
++Enterprise (sales-assisted)
++AWS Marketplace availability
++No
++No
++Yes
++Consultation
++No
++No
++Yes
++Tiered incentives on committed spend
++No
++No
++Yes
++Trials
++No
++No
++Yes
++Customer success support at certain spend thresholds
++No
++No
++Yes
++Payment options
++Features
++Team
++Enterprise (self-serve)
++Enterprise (sales-assisted)
++Credit card
++Yes
++Yes
++Yes
++ACH
++No
++Yes
++Yes
++Invoicing / net terms
++No
++No
++Yes
++Billing cycle
++Monthly and annual
++Annual
++Annual
++Adding seats midterm
++Yes
++Yes
++Yes
+@@ -1135,4 +1184,5 @@
+-How is Claude Max different from Pro?
+-The
+-Max plan
+-is built for people who work with Claude throughout the day and want longer, uninterrupted sessions. You get everything in Pro, plus more usage: choose from 5x or 20x the usage of Pro per 5-hour session. Max also gives you higher output limits. Both options are billed monthly. See the cards above for current pricing.
++How are Max and Ultra different from Pro?
++Max and Ultra
++are built for people who work with Claude throughout the day and want longer, uninterrupted sessions. You get everything in Pro, plus more usage. Max gives you 5x the usage of Pro, every 5 hours and every week. Ultra gives you 10x the weekly usage of Pro, with no 5-hour limit for
++verified accounts
++. Both plans include Fable, our top model, for up to half your weekly limit, and a monthly API credit to build on the Claude Platform: $100 on Max, $200 on Ultra. Both plans are billed monthly. See the cards above for current pricing.
+@@ -1142 +1192,3 @@
+-that reset on a rolling five-hour session window, and paid plans add weekly limits on top. Your activity across Claude on web, desktop, mobile, and Claude Code all draws from the same pool. How much you can do depends on the length and complexity of your conversations, the model you choose, and the features you use, so there's no fixed message count. Free covers everyday questions. Pro gives you at least 5x more usage per 5-hour session than Free. Max gives you 5x or 20x more usage per 5-hour session than Pro. On Team plans, Standard seats give more than Pro and Premium seats give 5x more than Standard. To manage capacity and make sure all users have fair access, we may limit your usage in other ways, such as weekly and monthly caps or model and feature usage, at our discretion. When you reach a limit, you can wait for it to reset, move to a higher plan, or, on paid plans, turn on
++. Most accounts have a limit that resets on a rolling five-hour session window, and paid plans add weekly limits on top. Your activity across Claude on web, desktop, mobile, and Claude Code all draws from the same pool. How much you can do depends on the length and complexity of your conversations, the model you choose, and the features you use, so there's no fixed message count. Free covers everyday questions. Pro gives you at least 5x more usage per 5-hour session than Free. Max gives you 5x the usage of Pro every 5 hours and every week. Ultra gives you 10x the weekly usage of Pro, with no 5-hour limit for
++verified accounts
++. On Team plans, Standard seats give more than Pro and Premium seats give 5x more than Standard. To manage capacity and make sure all users have fair access, we may limit your usage in other ways, such as weekly and monthly caps or model and feature usage, at our discretion. When you reach a limit, you can wait for it to reset, move to a higher plan, or, on paid plans, turn on
+@@ -1194 +1246 @@
+-In some upgrades (for example Pro Annual to Max 5x Monthly), your remaining value on your old plan is larger than the cost of one billing period of the new plan. In this case, the excess will be stored as credit, which will automatically get used for future purchases.
++In some upgrades (for example Pro Annual to Max Monthly), your remaining value on your old plan is larger than the cost of one billing period of the new plan. In this case, the excess will be stored as credit, which will automatically get used for future purchases.
+@@ -1210,2 +1262,2 @@
+-Canceling doesn't delete your data. Your chats, projects, and files stay with your account, though some features aren't available on the Free plan. For Pro and Max, your account moves to the Free plan once the period ends. For step-by-step help, see
+-how to cancel a Pro or Max plan
++Canceling doesn't delete your data. Your chats, projects, and files stay with your account, though some features aren't available on the Free plan. For Pro, Max, and Ultra, your account moves to the Free plan once the period ends. For step-by-step help, see
++how to cancel a Pro, Max, or Ultra plan

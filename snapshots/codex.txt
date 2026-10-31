@@ -657,6 +657,7 @@ Deployment and configuration
 Windows app and CLI deployment
 Manage app updates
 Managed configuration
+Self-host configuration
 Codex security cookbook
 Remote connections
 Workspace model availability

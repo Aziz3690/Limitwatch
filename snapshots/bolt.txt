@@ -323,14 +323,18 @@ and
 billing.
 Visit Help Center
 What are tokens?
-AI tokens are a complex topic related to all AI apps, not just Bolt. You can learn more about tokens
-here
-. For Bolt specifically it is important to know that most token usage is related to syncing your project’s file system to the AI: the larger the project, the more tokens used per message. Our top priority is to increase the efficiency of token usage in Bolt. We continue to make improvements so that Bolt uses fewer tokens.
+Tokens are how Bolt measures the work it does on your project. Bolt uses tokens when it reads your prompts and project files, makes a plan, or writes code. Your plan includes a monthly token allowance, and you can check your balance on the
+Subscription & Tokens
+page anytime.
+For tips to help your tokens go further, see
+Maximizing token efficiency
+.
 How do Teams plans work?
-Do tokens rollover from month to month?
+Do tokens roll over from month to month?
+What’s the difference between monthly and annual billing?
 Can I change my plan later?
 Can I cancel my subscription?
-What are the token limits associated with a free plan?
+What are the token limits on the Free plan?
 Are you ready?
 Start
 building
