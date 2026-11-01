@@ -1,0 +1,78 @@
+--- previous
++++ current
+@@ -3,2 +3,10 @@
+-Products
+-CREATE
++Product
++Agent
++Databases
++Security
++Integrations
++Solutions
++BY USE CASE
++Apps
++Websites
++Landing Pages
+@@ -6 +13,0 @@
+-Apps & Websites
+@@ -8,6 +14,0 @@
+-PLATFORM
+-Agents
+-Databases
+-Integrations
+-Security
+-Solutions
+@@ -20,8 +21 @@
+-IT
+-BY USE CASE
+-Apps
+-Websites
+-Landing Pages
+-Dashboards
+-Prototypes
+-Chatbots
++Government
+@@ -35 +28,0 @@
+-Replit Experts
+@@ -39 +31,0 @@
+-Gallery
+@@ -40,0 +33 @@
++Frontier Blog
+@@ -45,2 +38,10 @@
+-Products
+-CREATE
++Product
++Agent
++Databases
++Security
++Integrations
++Solutions
++BY USE CASE
++Apps
++Websites
++Landing Pages
+@@ -48 +48,0 @@
+-Apps & Websites
+@@ -50,6 +49,0 @@
+-PLATFORM
+-Agents
+-Databases
+-Integrations
+-Security
+-Solutions
+@@ -62,8 +56 @@
+-IT
+-BY USE CASE
+-Apps
+-Websites
+-Landing Pages
+-Dashboards
+-Prototypes
+-Chatbots
++Government
+@@ -77 +63,0 @@
+-Replit Experts
+@@ -81 +66,0 @@
+-Gallery
+@@ -82,0 +68 @@
++Frontier Blog

@@ -1,30 +1,24 @@
 Pricing and Plans | Replit
 Skip to content
-Products
-CREATE
-Design
-Apps & Websites
-Slides
-PLATFORM
-Agents
+Product
+Agent
 Databases
-Integrations
 Security
+Integrations
 Solutions
+BY USE CASE
+Apps
+Websites
+Landing Pages
+Design
+Slides
 BY ROLE
 Founders
 Product Managers
 Designers
 Engineers
 Operations
-IT
-BY USE CASE
-Apps
-Websites
-Landing Pages
-Dashboards
-Prototypes
-Chatbots
+Government
 Pricing
 Enterprise
 Resources
@@ -32,41 +26,34 @@ LEARN & SUPPORT
 Docs
 Community
 Support
-Replit Experts
 Partners
 DISCOVER
 Customer Stories
-Gallery
 Blog
+Frontier Blog
 Newsroom
 Contact sales
 Log in
 Sign up
-Products
-CREATE
-Design
-Apps & Websites
-Slides
-PLATFORM
-Agents
+Product
+Agent
 Databases
-Integrations
 Security
+Integrations
 Solutions
+BY USE CASE
+Apps
+Websites
+Landing Pages
+Design
+Slides
 BY ROLE
 Founders
 Product Managers
 Designers
 Engineers
 Operations
-IT
-BY USE CASE
-Apps
-Websites
-Landing Pages
-Dashboards
-Prototypes
-Chatbots
+Government
 Pricing
 Enterprise
 Resources
@@ -74,12 +61,11 @@ LEARN & SUPPORT
 Docs
 Community
 Support
-Replit Experts
 Partners
 DISCOVER
 Customer Stories
-Gallery
 Blog
+Frontier Blog
 Newsroom
 Log in
 Sign up
