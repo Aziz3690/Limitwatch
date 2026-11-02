@@ -56,7 +56,6 @@ Website hosting
 MOST POPULAR
 Pro
 $25
-*
 /month
 Billed monthly
 Get Pro
@@ -70,7 +69,6 @@ Connectors and MCPs
 SEO boosting
 Teams
 $30
-*
 /month
 Per member, billed monthly
 Start a Team
@@ -94,8 +92,6 @@ Unlimited tokens, priced by consumption
 Dedicated infrastructure and account manager
 Data governance & retention policies
 Flexible procurement, MSA, and 24/7 support
-*
-Plus applicable taxes
 Trusted by teams shipping with AI
 Trusted by Accenture, Shopify, Google, Cloudflare, AWS, Microsoft, Salesforce, Meta
 Security and compliance
