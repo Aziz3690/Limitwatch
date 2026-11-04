@@ -1,0 +1,18 @@
+--- previous
++++ current
+@@ -10,0 +11,4 @@
++Theme
++Light
++Dark
++System
+@@ -79,0 +84,4 @@
++Theme
++Light
++Dark
++System
+@@ -174 +181,0 @@
+-Deep research
+@@ -248 +254,0 @@
+-Local shell
+@@ -284,0 +291 @@
++API keys and service accounts

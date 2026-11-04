@@ -1,0 +1,358 @@
+--- previous
++++ current
+@@ -41 +41,2 @@
+-Start for free. No credit card required.
++Start for free. Upgrade as you go.
++Monthly
+@@ -43,2 +44,4 @@
+-Save up to 28%
+-Monthly
++Save up to
++28
++%
++with yearly billing
+@@ -49 +51,0 @@
+-Start Free
+@@ -51 +53,2 @@
+-1M tokens/month to try Bolt
++Start free
++You get:
+@@ -52,0 +56,2 @@
++300K tokens daily limit
++1M tokens per month
+@@ -53,0 +59,3 @@
++10MB file upload limit
++Website hosting
++Up to 333k web requests
+@@ -55,2 +62,0 @@
+-Website hosting
+-MOST POPULAR
+@@ -60,0 +67 @@
++Everything in Free, plus real app capacity and your own domain.
+@@ -62,3 +69,13 @@
+-Everything in Free, plus real app capacity and your own domain.
+-Your own domain, no Bolt branding
+-10M tokens/month, rollover included
++You get:
++Public and private projects
++No daily token limit
++Start at 10M tokens per month
++No Bolt branding on websites
++Share sites privately
++100MB file upload limit
++Website hosting
++Up to 1M web requests
++Unused tokens roll over to next month
++Custom domain support
++SEO boosting
++Unlimited databases
+@@ -67,3 +84 @@
+-Access to the newest AI models
+-Connectors and MCPs
+-SEO boosting
++Image editing with AI
+@@ -70,0 +86 @@
++Popular
+@@ -74 +89,0 @@
+-Start a Team
+@@ -76 +91,2 @@
+-Best for small teams.
++Start a team
++You get everything in Pro, plus:
+@@ -83 +98,0 @@
+-Priority support
+@@ -86,2 +100,0 @@
+-Custom annual contract, billed by consumption
+-Book a Demo
+@@ -90,3 +103,8 @@
+-SOC 2 Type II, SSO, and data governance
+-Unlimited tokens, priced by consumption
+-Dedicated infrastructure and account manager
++Book a Demo
++You get everything in Pro, plus:
++Advanced security (SSO, audit logs, compliance support)
++Granular admin controls & user provisioning
++Dedicated account manager & 24/7 priority support
++Custom workflows, integrations & SLAs
++Scalable for large teams and high-volume usage
++Flexible billing & procurement options
+@@ -94,227 +112,3 @@
+-Flexible procurement, MSA, and 24/7 support
+-Trusted by teams shipping with AI
+-Trusted by Accenture, Shopify, Google, Cloudflare, AWS, Microsoft, Salesforce, Meta
+-Security and compliance
+-Enterprise-grade security and compliance certifications
+-Learn More
+-Free
+-Pro
+-Teams
+-Enterprise
+-Pro
+-plan comparison
+-Compare
+-Free
+-Start Free
+-Pro
+-Get Pro
+-Teams
+-Start a Team
+-Enterprise
+-Book a Demo
+-Usage & Tokens
+-Monthly AI Tokens
+-1M
+-Starts at 10M
+-Starts at 10M per member
+-Custom
+-Daily Token Limit
+-300K
+-No Limit
+-No Limit
+-No Limit
+-Unused Tokens roll over
+-—
+-Not included
+-Included
+-Included
+-Included
+-File Upload Limit
+-10MB
+-100MB
+-100MB
+-Custom
+-Web Requests / Month
+-333K
+-1M
+-Up to 1M
+-Custom
+-Access to Best & Newest AI Models
+-—
+-Not included
+-Included
+-Included
+-Included
+-Projects & Hosting
+-Public & Private Projects
+-Included
+-Included
+-Included
+-Included
+-Bolt Branding removed
+-—
+-Not included
+-Included
+-Included
+-Included
+-Custom Domains
+-—
+-Not included
+-Included
+-Included
+-Included
+-Private Sharing
+-—
+-Not included
+-Included
+-Included
+-Included
+-Website Hosting
+-Included
+-Included
+-Included
+-Included
+-SEO Boost for Published Sites
+-—
+-Not included
+-Included
+-Included
+-Included
+-Team Templates
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Collaboration
+-Centralized Billing
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Team-Level Access Management
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Granular Admin Controls
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Org-Wide Sharing
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Integrations & Data
+-Connectors & MCPs
+-—
+-Not included
+-Included
+-Included
+-Included
+-Private NPM Registries
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Design System Knowledge
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Security & Support
+-Single Sign-On (SSO)
+-—
+-Not included
+-—
+-Not included
+-Included
+-Included
+-Audit Logs
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-SOC 2, GDPR, ISO 27001
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-Advanced Security Reviews
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-Dedicated Infrastructure
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-Data Governance & Retention
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-Dedicated Account Manager
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-Flexible Billing, Procurement & MSA
+-—
+-Not included
+-—
+-Not included
+-—
+-Not included
+-Included
+-Support
+-Community
+-Email
+-Priority
+-24/7 Priority
+-FAQs
+-Everything
+-you
+-need
+-to
+-know
+-about
+-the
+-product
+-and
+-billing.
+-Visit Help Center
++Hands-on onboarding & enterprise training
++Frequently asked questions
++Everything you need to know about the product and billing.
+@@ -328,0 +123 @@
++Teams plans give you centralized billing, team settings, and a shared workspace for collaborating on Bolt projects. You pay per team member, and paid members get a monthly token allowance based on your plan. Tokens aren’t shared between members. You can also add free members who can view team projects. But since free members don’t get tokens, they can’t send prompts.
+@@ -329,0 +125,3 @@
++On paid plans, yes. Unused tokens from your monthly allowance stay in your balance for up to two months, as long as your paid subscription is active. Free plan tokens don’t roll over. To see how token rollover works with examples, check the
++Token rollover FAQs
++.
+@@ -330,0 +129 @@
++With an annual plan, you pay for the full year up front at a discounted price. With a monthly plan, you pay month by month. In both cases, your token allowance refreshes once a month, and any tokens you don’t use stay in your balance for up to two months after you receive them.
+@@ -331,0 +131,7 @@
++Yes. Go to the
++Subscription & Tokens
++page, click
++Billing details
++, click
++See all available plans
++, and then pick the plan you want. Upgrades apply right away, and downgrades start at your next billing date. On an annual plan, that date is your annual renewal.
+@@ -332,0 +139,10 @@
++Yes, anytime. Go to the
++Subscription & Tokens
++page, click
++Billing details
++, then click
++Cancel subscription
++. Your plan and unused tokens stay active until your current billing period ends, then your account moves to the Free plan.
++If you change your mind, you can
++undo a cancellation
++before it goes into effect.
+@@ -334,15 +150,4 @@
+-Are you ready?
+-Start
+-building
+-today
+-Join
+-thousands
+-of
+-teams
+-shipping
+-faster
+-with
+-our
+-enterprise
+-platform.
+-Start Building
++The Free plan includes 1 million tokens a month, with a daily limit of 300,000. Free plan tokens don’t roll over.
++For additional information, please visit our
++Help Center
++.
+@@ -365,0 +171 @@
++Acceptable Use Policy
