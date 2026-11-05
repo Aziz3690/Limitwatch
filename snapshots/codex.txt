@@ -481,6 +481,7 @@ Meet dots
 Import from another agent
 Foundations
 Prompting
+Working with agents
 Model selection
 Personalize ChatGPT
 Skills & Plugins
@@ -699,6 +700,7 @@ Analytics API
 Security and compliance
 Governance
 Agent security
+Safety and security in dots
 Prisma AIRS
 HIPAA configuration
 Compliance API and audit events
@@ -809,6 +811,7 @@ Meet dots
 Import from another agent
 Foundations
 Prompting
+Working with agents
 Model selection
 Personalize ChatGPT
 Skills & Plugins

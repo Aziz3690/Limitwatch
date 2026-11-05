@@ -9,7 +9,7 @@ Platform
 GitHub
 Repository hosting, code review, and collaboration
 Copilot
-AI coding agent for tasks, projects and automated work
+AI coding agent for tasks, projects, and automated work
 Build & Ship
 Actions
 CI/CD and automation
