@@ -1,0 +1,18 @@
+--- previous
++++ current
+@@ -148,2 +147,0 @@
+-Reinforcement fine-tuning
+-RFT use cases
+@@ -595 +592,0 @@
+-Model catalogs
+@@ -665 +662 @@
+-Deployment and configuration
++Configuration
+@@ -673,0 +671 @@
++Advanced deployment
+@@ -675 +673 @@
+-Bedrock GovCloud configuration
++GovCloud deployment
+@@ -678,2 +675,0 @@
+-Gateway compatibility
+-Bedrock through LiteLLM

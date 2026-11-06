@@ -145,8 +145,6 @@ Optimization cycle
 Supervised fine-tuning
 Vision fine-tuning
 Direct preference optimization
-Reinforcement fine-tuning
-RFT use cases
 Best practices
 Assistants API
 Migration guide
@@ -592,7 +590,6 @@ Cloud environments
 Build with Codex
 Codex SDK
 App Server
-Model catalogs
 GitHub Action
 Non-interactive mode
 Third-party integrations
@@ -662,7 +659,7 @@ User lifecycle management
 Roles and workspace permissions
 Personal access tokens
 Service accounts
-Deployment and configuration
+Configuration
 Windows app and CLI deployment
 NFS home directories
 Manage app updates
@@ -671,12 +668,11 @@ Self-host configuration
 Codex security cookbook
 Remote connections
 Workspace model availability
+Advanced deployment
 Amazon Bedrock
-Bedrock GovCloud configuration
+GovCloud deployment
 Connect to a gateway
 Roll out a gateway
-Gateway compatibility
-Bedrock through LiteLLM
 ChatGPT EDU
 Education plans
 Higher education setup
