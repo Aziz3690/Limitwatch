@@ -1,0 +1,8 @@
+--- previous
++++ current
+@@ -124,0 +125,3 @@
++Cloud providers
++Amazon Bedrock
++Google Cloud
+@@ -345 +347,0 @@
+-Amazon Bedrock
