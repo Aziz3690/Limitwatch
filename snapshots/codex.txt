@@ -168,7 +168,6 @@ Prompt generation
 Frontend prompting
 Reasoning
 Reasoning models
-Preserved reasoning
 Reasoning best practices
 Images
 Images and vision
@@ -293,6 +292,7 @@ Production best practices
 API keys and service accounts
 Deployment checklist
 Performance and quality
+Keep the prefix unchanged
 Fast mode
 Ultrafast mode
 Latency optimization
