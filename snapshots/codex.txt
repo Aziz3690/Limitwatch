@@ -742,11 +742,11 @@ Docs
 Showcase
 All posts
 Recent
+Build a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
 Rethinking skills and prompts for GPT-6 Astra
-Architectural visualization with Astra
 Topics
 General
 API

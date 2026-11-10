@@ -6,7 +6,7 @@ Customers
 Pricing
 Blog
 Get a demo
-Login
+Log in
 Get started
 Devin
 Plans and Pricing
@@ -159,5 +159,5 @@ Customers
 Pricing
 Blog
 Get a demo
-Login
+Log in
 Get started

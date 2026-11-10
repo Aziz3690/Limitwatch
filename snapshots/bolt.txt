@@ -114,7 +114,7 @@ Frequently asked questions
 Everything you need to know about the product and billing.
 What are tokens?
 Tokens are how Bolt measures the work it does on your project. Bolt uses tokens when it reads your prompts and project files, makes a plan, or writes code. Your plan includes a monthly token allowance, and you can check your balance on the
-Subscription & Tokens
+Billing & usage
 page anytime.
 For tips to help your tokens go further, see
 Maximizing token efficiency
@@ -128,20 +128,20 @@ Token rollover FAQs
 What’s the difference between monthly and annual billing?
 With an annual plan, you pay for the full year up front at a discounted price. With a monthly plan, you pay month by month. In both cases, your token allowance refreshes once a month, and any tokens you don’t use stay in your balance for up to two months after you receive them.
 Can I change my plan later?
-Yes. Go to the
-Subscription & Tokens
+Yes. On the
+Billing & usage
 page, click
+Change plan
+under
 Billing details
-, click
-See all available plans
 , and then pick the plan you want. Upgrades apply right away, and downgrades start at your next billing date. On an annual plan, that date is your annual renewal.
 Can I cancel my subscription?
-Yes, anytime. Go to the
-Subscription & Tokens
+Yes, anytime. On the
+Billing & usage
 page, click
-Billing details
-, then click
 Cancel subscription
+under
+Billing details
 . Your plan and unused tokens stay active until your current billing period ends, then your account moves to the Free plan.
 If you change your mind, you can
 undo a cancellation

@@ -1,0 +1,27 @@
+--- previous
++++ current
+@@ -117 +117 @@
+-Subscription & Tokens
++Billing & usage
+@@ -131,2 +131,2 @@
+-Yes. Go to the
+-Subscription & Tokens
++Yes. On the
++Billing & usage
+@@ -133,0 +134,2 @@
++Change plan
++under
+@@ -135,2 +136,0 @@
+-, click
+-See all available plans
+@@ -139,2 +139,2 @@
+-Yes, anytime. Go to the
+-Subscription & Tokens
++Yes, anytime. On the
++Billing & usage
+@@ -141,0 +142,2 @@
++Cancel subscription
++under
+@@ -143,2 +144,0 @@
+-, then click
+-Cancel subscription

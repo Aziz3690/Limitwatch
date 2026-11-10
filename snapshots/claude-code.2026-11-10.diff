@@ -1,0 +1,68 @@
+--- previous
++++ current
+@@ -913 +913 @@
+-Fable 5.1
++Fable 5.2
+@@ -917,4 +917,4 @@
+-$0.25
+-/ MTok
+-Write
+-$12.50
++$0.20
++/ MTok
++Write
++$10
+@@ -923 +923 @@
+-$10
++$8
+@@ -926 +926 @@
+-$50
++$40
+@@ -992 +992 @@
+-Get up to 2.5x faster speeds with fast mode for Opus 5.5 at 2x standard pricing.
++Get up to 2.5x faster speeds with fast mode for Opus 5.5 and Fable 5.2 at 2x standard pricing.
+@@ -1029,0 +1030,14 @@
++Fable 5.1
++Prompt caching
++Read
++$0.25
++/ MTok
++Write
++$12.50
++/ MTok
++Input
++$10
++/ MTok
++Output
++$50
++/ MTok
+@@ -1043,14 +1056,0 @@
+-/ MTok
+-Sonnet 5
+-Prompt caching
+-Read
+-$0.20
+-/ MTok
+-Write
+-$2.50
+-/ MTok
+-Input
+-$2
+-/ MTok
+-Output
+-$10
+@@ -1060,0 +1061,14 @@
++Sonnet 5
++Prompt caching
++Read
++$0.20
++/ MTok
++Write
++$2.50
++/ MTok
++Input
++$2
++/ MTok
++Output
++$10
++/ MTok
