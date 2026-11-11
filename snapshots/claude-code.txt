@@ -127,7 +127,7 @@ More usage than Free
 Fable, paid with usage credits
 New
 Hand off and schedule tasks
-Claude Dashboards (beta)
+Claude Data, plus Sheets and Whiteboards (beta)
 Claude Code
 Claude Science
 Projects
@@ -206,7 +206,7 @@ Yes
 Yes
 Yes
 Yes
-Claude Dashboards (beta)
+Claude Data
 No
 Yes
 Yes
@@ -227,8 +227,20 @@ No
 No
 No
 No
+New
+Claude Sheets (beta)
+No
+Yes
+Yes
+Yes
 Claude Slides
 Yes
+Yes
+Yes
+Yes
+New
+Claude Whiteboards (beta)
+No
 Yes
 Yes
 Yes
@@ -400,7 +412,7 @@ No
 No
 Yes
 Yes
-User and organizational level spend controls
+Organizational level spend controls
 More information
 No
 No
@@ -540,7 +552,7 @@ $125
 if billed monthly.
 Claude Code and Claude Cowork
 Claude Design, Slides, and Docs
-Claude Motion and Dashboards (beta)
+Claude Data, plus Motion, Sheets, and Whiteboards (beta)
 Claude Science
 Microsoft 365, Claude Tag, and more
 Enterprise search across your organization
@@ -607,7 +619,7 @@ More information
 Yes
 Yes
 Yes
-Claude Dashboards (beta)
+Claude Data
 More information
 Yes
 Yes
@@ -627,7 +639,19 @@ More information
 Yes
 Yes
 Yes
+New
+Claude Sheets (beta)
+More information
+Yes
+Yes
+Yes
 Claude Slides
+More information
+Yes
+Yes
+Yes
+New
+Claude Whiteboards (beta)
 More information
 Yes
 Yes
@@ -764,7 +788,7 @@ Priority access at high traffic times
 Yes
 Yes
 Yes
-User and organizational level spend controls
+Spend controls
 Yes
 Yes
 Yes

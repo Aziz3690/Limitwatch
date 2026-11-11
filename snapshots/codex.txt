@@ -742,11 +742,11 @@ Docs
 Showcase
 All posts
 Recent
-Build a retro handheld game with Codex and ModRetro Chromatic
+Pushing voice agents further: inside four GPT-Live builds
+Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
-Rethinking skills and prompts for GPT-6 Astra
 Topics
 General
 API
@@ -791,6 +791,7 @@ Programs
 Codex Ambassadors
 Meet the ambassadors
 Codex for Students
+Student Collective
 Codex for Open Source
 OpenAI for Startups
 Spaces
@@ -1362,9 +1363,6 @@ Cloud agent internet access controls
 —
 Sites
 —
-GitHub issue and PR delegation with
-@codex
-—
 GitHub code review and automatic PR reviews
 —
 Slack cloud integration
@@ -1487,7 +1485,6 @@ Cloud chats
 Cloud environments
 Internet controls
 Sites
-GitHub delegation
 GitHub PR reviews
 Slack integration
 Linear integration

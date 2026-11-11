@@ -1,0 +1,38 @@
+--- previous
++++ current
+@@ -33,0 +34 @@
++Use your ChatGPT plan
+@@ -40,0 +42 @@
++Use your ChatGPT plan
+@@ -47,2 +49,5 @@
+-Up to 200 users
+-Share and collaborate
++Up to 100 users
++Share and collaborate with multiplayer sessions
++2 concurrent sessions in Free mode per user
++SAML/OIDC SSO
++Cost controls with 3 usage tiers
+@@ -50,2 +55,2 @@
+-Admin dashboard with analytics
+-Priority support
++Slack channel support
++Use your ChatGPT plan
+@@ -58 +63 @@
+-SAML/OIDC SSO
++SCIM and role-based access control
+@@ -78 +83 @@
+-Up to 200 users
++Up to 100 users
+@@ -81 +86 @@
+-Each full user includes their own generous quota and access to Devin Desktop
++Each full user includes their own generous quota
+@@ -104,0 +110,2 @@
++Concurrent sessions in Free mode
++2 per user
+@@ -119,0 +127,4 @@
++Cost controls
++Usage limits
++3 tiers
++By team and per user
+@@ -122,0 +134 @@
++SCIM provisioning

@@ -1,0 +1,48 @@
+--- previous
++++ current
+@@ -130 +130 @@
+-Claude Dashboards (beta)
++Claude Data, plus Sheets and Whiteboards (beta)
+@@ -209 +209 @@
+-Claude Dashboards (beta)
++Claude Data
+@@ -229,0 +230,6 @@
++New
++Claude Sheets (beta)
++No
++Yes
++Yes
++Yes
+@@ -231,0 +238,6 @@
++Yes
++Yes
++Yes
++New
++Claude Whiteboards (beta)
++No
+@@ -403 +415 @@
+-User and organizational level spend controls
++Organizational level spend controls
+@@ -543 +555 @@
+-Claude Motion and Dashboards (beta)
++Claude Data, plus Motion, Sheets, and Whiteboards (beta)
+@@ -610 +622 @@
+-Claude Dashboards (beta)
++Claude Data
+@@ -629,0 +642,6 @@
++New
++Claude Sheets (beta)
++More information
++Yes
++Yes
++Yes
+@@ -630,0 +649,6 @@
++More information
++Yes
++Yes
++Yes
++New
++Claude Whiteboards (beta)
+@@ -767 +791 @@
+-User and organizational level spend controls
++Spend controls
