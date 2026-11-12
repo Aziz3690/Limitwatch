@@ -612,7 +612,7 @@ Auto-review
 Agent approvals & security
 Codex Security
 Overview
-Codex Security Cloud
+Daybreak Defense Factory
 Setup
 Security Review
 Improving the threat model
