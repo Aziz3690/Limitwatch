@@ -35,6 +35,8 @@ Sign in with ChatGPT
 Apps powered by your user's ChatGPT plan
 Commerce
 Build commerce flows in ChatGPT
+Agent Access
+Allow verified ChatGPT browser visits to your website
 Ads
 Publish and measure ads in ChatGPT
 Workspace Agents
@@ -355,6 +357,7 @@ Overview
 Plugins
 Sign in with ChatGPT
 Commerce
+Agent Access
 Ads
 Workspace Agents
 ChatGPT + Codex user docs
@@ -419,17 +422,16 @@ Token reference
 Errors and recovery
 Preview limitations
 Home
-Guides
-Get started
-Best practices
-File Upload
-Overview
-Products
-API
-Overview
-Feeds
-Products
-Promotions
+Partner Playbook Overview
+Commerce Partner Playbook
+Submit product feeds
+Help ensure cloud browser access
+Accept payments
+Build a plugin
+Integrate Sign in with ChatGPT
+Claim your business
+Product feeds · Reference
+Product feed schema
 Ads Overview
 Measurement
 Measurement Pixel
@@ -614,8 +616,11 @@ Codex Security
 Overview
 Daybreak Defense Factory
 Setup
+Findings and fixes
+Import scanner findings
 Security Review
 Improving the threat model
+Notifications
 FAQ
 Codex Security plugin
 Quickstart
@@ -667,6 +672,7 @@ Windows app and CLI deployment
 NFS home directories
 Manage app updates
 Managed configuration
+Desktop browser policies
 Self-host configuration
 Codex security cookbook
 Remote connections
@@ -742,11 +748,11 @@ Docs
 Showcase
 All posts
 Recent
+Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
 Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
-Bringing my LED display to life with GPT-Live-1 and Codex
 Topics
 General
 API

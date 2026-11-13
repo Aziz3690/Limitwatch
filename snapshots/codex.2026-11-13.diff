@@ -1,0 +1,40 @@
+--- previous
++++ current
+@@ -37,0 +38,2 @@
++Agent Access
++Allow verified ChatGPT browser visits to your website
+@@ -357,0 +360 @@
++Agent Access
+@@ -422,11 +425,10 @@
+-Guides
+-Get started
+-Best practices
+-File Upload
+-Overview
+-Products
+-API
+-Overview
+-Feeds
+-Products
+-Promotions
++Partner Playbook Overview
++Commerce Partner Playbook
++Submit product feeds
++Help ensure cloud browser access
++Accept payments
++Build a plugin
++Integrate Sign in with ChatGPT
++Claim your business
++Product feeds · Reference
++Product feed schema
+@@ -616,0 +619,2 @@
++Findings and fixes
++Import scanner findings
+@@ -618,0 +623 @@
++Notifications
+@@ -669,0 +675 @@
++Desktop browser policies
+@@ -744,0 +751 @@
++Securing persistent agents like OpenClaw at OpenAI
+@@ -749 +755,0 @@
+-Bringing my LED display to life with GPT-Live-1 and Codex
