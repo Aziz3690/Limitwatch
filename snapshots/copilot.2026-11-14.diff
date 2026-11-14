@@ -1,0 +1,81 @@
+--- previous
++++ current
+@@ -3,2 +3,3 @@
+-GitHub Enterprise now includes access to GitHub Copilot.
+-Learn more
++GitHub Universe 2026
++Catch up on all that was announced.
++See what's new
+@@ -115 +115,0 @@
+-Copilot CLI
+@@ -116,0 +117 @@
++Access to Copilot Fusion Standard
+@@ -144,0 +146 @@
++Access to Copilot Fusion Standard, High, and Max
+@@ -572,0 +575,58 @@
++Copilot Fusion
++Copilot Fusion
++Fusion Standard
++Everyday work. Copilot Fusion selects one model for each task.
++Free
++plan
++Included
++Pro
++plan
++Included
++Pro+
++plan
++Included
++Max
++plan
++Included
++Fusion High
++Substantial, well-scoped coding tasks, such as fixing a complex bug or making a change across several files, when additional model calls may be worth the extra time and AI credits.
++Free
++plan
++Not included
++Pro
++plan
++Not included
++Pro+
++plan
++Included
++Max
++plan
++Included
++Fusion Max
++Tasks requiring the deepest possible reasoning and most thorough analysis.
++Free
++plan
++Not included
++Pro
++plan
++Not included
++Pro+
++plan
++Included
++Max
++plan
++Included
++Fusion Fast
++Not selectable by users. Only available in Visual Studio Code inline chat.
++Free
++plan
++Included
++Pro
++plan
++Included
++Pro+
++plan
++Included
++Max
++plan
++Included
+@@ -612,0 +673 @@
++Google Gemini 4 Hydrogen
+@@ -651,0 +713 @@
++Google Gemini 4 Hydrogen
+@@ -690,0 +753 @@
++Google Gemini 4 Hydrogen
+@@ -729,0 +793 @@
++Google Gemini 4 Hydrogen

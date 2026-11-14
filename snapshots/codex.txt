@@ -322,6 +322,7 @@ Under-18 guidance
 CSAM guidance
 Content provenance
 Your data
+Data residency
 Private Safety Processing
 Permissions
 Infrastructure and access
