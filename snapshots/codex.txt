@@ -710,8 +710,8 @@ Safety and security in dots
 Prisma AIRS
 HIPAA configuration
 Compliance API and audit events
-Explore use cases
-Collections
+Home
+All use cases
 Home
 Videos
 Showcase
@@ -725,8 +725,21 @@ Events
 Blog
 Company blog
 Developer blog
-Explore use cases
+Home
+All use cases
 Collections
+Productivity & Collaboration
+Business Operations
+Data Science
+Web development
+Game development
+Native development
+Production systems
+Security
+Finance
+Sales
+Life Sciences
+Education
 Home
 Videos
 Showcase
