@@ -1,0 +1,226 @@
+--- previous
++++ current
+@@ -3,2 +2,0 @@
+-Log in
+-Get started
+@@ -15,0 +14,91 @@
++Monthly
++Yearly
++2 months free
++Free
++Discover what Lovable can do for you
++$0
++Get started
++No credit card needed
++Free grants
++Unlimited collaborators
++5 lovable.app domains
++Invite-only publishing
++Publish websites that only people you invite can open. Invite up to 10 people per project.
++Cloud
++Community support
++Pro
++Designed for fast-moving teams building together in real time.
++$25
++/ month
++100 monthly credits
++Get started
++Unlimited
++users
++Free grants
++All Free features
++100
++Pro credits
++Credit rollovers
++Credits roll over for 1 month on monthly plans, or until one month after the end of your annual plan.
++On-demand credit top-ups
++Unlimited lovable.app domains
++Custom domains
++User roles & permissions
++Per-member credit limits
++Remove the Lovable badge
++Email support
++Design systems
++Business
++Advanced controls and power features for growing departments
++$50
++/ month
++100 monthly credits
++Get started
++Unlimited
++users
++Free grants
++All Pro features
++100
++Business credits
++Team workspace
++Role-based access
++Workspace publish
++Publish websites that are only accessible to logged in workspace members.
++SSO
++Security center
++Design templates
++Priority support
++Enterprise
++Built for large orgs needing flexibility, scale, and governance.
++Platform fee
++Book a demo
++Volume based
++pricing
++Unlimited
++users
++All Business features
++Directory sync (SCIM)
++Audit logs
++Restrict who publishes and invites
++Auto-retire abandoned apps
++Scheduled deep security scans
++Sensitive data detection and control
++Advanced design systems support
++Git sync data residency
++EU inference
++GitHub Enterprise, cloud or self-hosted
++Private npm registry
++Named CSM, onboarding and deployment
++Custom SLA
++Lovable for students
++Verify student status and get access to up to 50% off Lovable Pro.
++Get started
++Lovable for campus
++Billing and administrative controls for universities and colleges.
++Contact sales
++Lovable for kids
++Compliant access & curriculum for schools in partnership with imagi.
++Learn more
++Security and compliance
++Enterprise-grade security and compliance certifications
++Learn more
+@@ -95,8 +183,0 @@
+-Company
+-Careers
+-Press & media
+-Enterprise
+-Security
+-Trust center
+-(opens in new window)
+-Partnerships
+@@ -105,0 +187,16 @@
++Download apps
++App builder
++Website builder
++AI-powered apps
++Prototyping
++Internal Tools
++Connection
++s
++(opens in new window)
++Changelo
++g
++(opens in new window)
++Statu
++s
++(opens in new window)
++Solutions
+@@ -115,12 +211,0 @@
+-App builder
+-Website builder
+-AI-powered apps
+-Prototyping
+-Internal Tools
+-Download apps
+-Connections
+-(opens in new window)
+-Changelog
+-(opens in new window)
+-Status
+-(opens in new window)
+@@ -128 +213,2 @@
+-Learn
++Lear
++n
+@@ -138,0 +225,16 @@
++Community
++Become a partner
++Hire a Lovable
++partner
++(opens in new window)
++Affiliates
++Code of conduct
++Company
++Careers
++Press & media
++Enterprise
++Security
++Trust
++center
++(opens in new window)
++Partnerships
+@@ -140 +242,2 @@
+-Privacy policy
++Privacy
++policy
+@@ -144,35 +247,29 @@
+-Enterprise terms
+-(opens in new window)
+-General terms
+-(opens in new window)
+-Desktop app terms
+-(opens in new window)
+-Domain registration terms
+-(opens in new window)
+-DMCA copyright policy
+-(opens in new window)
+-Accessibility
+-(opens in new window)
+-Platform rules
+-(opens in new window)
+-Report abuse
+-(opens in new window)
+-Report security concerns
+-(opens in new window)
+-DPA
+-(opens in new window)
+-Community
+-Become a partner
+-Hire a Lovable partner
+-(opens in new window)
+-Affiliates
+-Code of conduct
+-Discord
+-(opens in new window)
+-Reddit
+-(opens in new window)
+-X / Twitter
+-(opens in new window)
+-YouTube
+-(opens in new window)
+-LinkedIn
++Enterprise
++terms
++(opens in new window)
++General
++terms
++(opens in new window)
++Desktop app
++terms
++(opens in new window)
++Domain registration
++terms
++(opens in new window)
++DMCA copyright
++policy
++(opens in new window)
++Accessibilit
++y
++(opens in new window)
++Platform
++rules
++(opens in new window)
++Report
++abuse
++(opens in new window)
++Report security
++concerns
++(opens in new window)
++DP
++A
