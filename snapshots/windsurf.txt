@@ -38,14 +38,15 @@ $200
 per month
 Select plan
 Everything in Pro, plus:
+Access to Devin Bots
 Significantly higher quotas
 Use your ChatGPT plan
 TEAM PLANS
 Teams
 $80
-/month for team plan + $40/mo per full dev seat
+per month
 Select plan
-Everything in Pro, plus:
+Access to Devin Bots
 Up to 100 users
 Share and collaborate with multiplayer sessions
 2 concurrent sessions in Free mode per user
@@ -63,6 +64,7 @@ Dedicated account management
 SCIM and role-based access control
 Centralized enterprise admin controls
 Dedicated deployment option
+Devin Bots
 First class support for
 every major model provider
 Compare Plans
@@ -81,9 +83,6 @@ Members
 1
 1
 Up to 100 users
-$40/month per
-full user
-Each full user includes their own generous quota
 Unlimited
 Devin Desktop
 Tab
@@ -97,6 +96,7 @@ Fast context
 Free SWE-2
 Slow
 Devin Cloud
+Devin Bots
 DeepWiki
 Devin API
 Ask Devin
