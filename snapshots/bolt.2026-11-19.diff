@@ -1,0 +1,14 @@
+--- previous
++++ current
+@@ -136,3 +136 @@
+-page, click
+-Change plan
+-under
++page, go to
+@@ -140 +138,5 @@
+-, and then pick the plan you want. Upgrades apply right away, and downgrades start at your next billing date. On an annual plan, that date is your annual renewal.
++. Click
++Upgrade
++to move to a bigger plan, or
++Downgrade
++to switch to a smaller one. Upgrades apply right away, and downgrades start at your next billing date. On an annual plan, that date is your annual renewal.

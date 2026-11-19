@@ -1,0 +1,208 @@
+--- previous
++++ current
+@@ -11,34 +11,3 @@
+-Devin
+-Plans and Pricing
+-Choose the perfect plan for your journey
+-SWE-2, our latest model, is now available →
+-INDIVIDUAL PLANS
+-Free
+-$0
+-Download
+-Light quota to code with agents
+-Limited model availability
+-Unlimited inline edits
+-Unlimited Tab completions
+-Pro
+-POPULAR
+-$20
+-per month
+-Select plan
+-Everything in Free, plus:
+-Increased quotas, including access to frontier models from OpenAI, Claude, Gemini, and SpaceXAI, plus leading open source models
+-Full model availability
+-Free use of SWE-2
+-Access to cloud agents (Devin Cloud)
+-Purchase extra usage at API pricing
+-Use your ChatGPT plan
+-Max
+-NEW
+-$200
+-per month
+-Select plan
+-Everything in Pro, plus:
+-Access to Devin Bots
+-Significantly higher quotas
+-Use your ChatGPT plan
+-TEAM PLANS
++Plans and pricing
++Teams and Enterprise
++Individual
+@@ -45,0 +15 @@
++Recommended
+@@ -48 +18,2 @@
+-Select plan
++Shared on-demand credits for up to 100 members
++Start with Teams
+@@ -50 +20,0 @@
+-Up to 100 users
+@@ -60 +30,2 @@
+-Get a Demo
++Built to scale across your organization
++Get a demo
+@@ -67,0 +39,29 @@
++Free
++$0
++Light quota to code with agents
++Download
++Light quota to code with agents
++Limited model availability
++Unlimited inline edits
++Unlimited Tab completions
++Pro
++$20
++per month
++Full model availability and cloud agents
++Get Pro
++Everything in Free, plus:
++Increased quotas, including frontier models from OpenAI, Claude, Gemini, and SpaceXAI
++Full model availability
++Free use of SWE-2
++Access to cloud agents (Devin Cloud)
++Purchase extra usage at API pricing
++Use your ChatGPT plan
++Max
++$200
++per month
++Significantly higher quotas
++Get Max
++Everything in Pro, plus:
++Access to Devin Bots
++Significantly higher quotas
++Use your ChatGPT plan
+@@ -70 +70,6 @@
+-Compare Plans
++Compare plans
++Free
++Pro
++Max
++Teams
++Enterprise
+@@ -72,0 +78 @@
++Download
+@@ -74,0 +81 @@
++Get Pro
+@@ -77 +84,2 @@
+-Team
++Get Max
++Teams
+@@ -78,0 +87 @@
++Start
+@@ -80,0 +90,2 @@
++Get a demo
++Seats
+@@ -85 +96 @@
+-Up to 100 users
++Up to 100
+@@ -94,0 +106 @@
++–
+@@ -97,0 +110 @@
++–
+@@ -99,0 +113,2 @@
++–
++–
+@@ -100,0 +116 @@
++–
+@@ -101,0 +118 @@
++–
+@@ -102,0 +120 @@
++–
+@@ -103,0 +122 @@
++–
+@@ -104,0 +124,3 @@
++–
++–
++–
+@@ -105,0 +128 @@
++–
+@@ -110,0 +134,3 @@
++–
++–
++–
+@@ -111,0 +138 @@
++–
+@@ -113,0 +141 @@
++–
+@@ -114,0 +143 @@
++–
+@@ -115,0 +145 @@
++–
+@@ -116,0 +147,4 @@
++–
++–
++–
++–
+@@ -118,0 +153,3 @@
++–
++–
++–
+@@ -119,0 +157,3 @@
++–
++–
++–
+@@ -121,0 +162,3 @@
++–
++–
++–
+@@ -123,0 +167,4 @@
++–
++–
++–
++–
+@@ -124,0 +172,4 @@
++–
++–
++–
++–
+@@ -126,0 +178,4 @@
++–
++–
++–
++–
+@@ -128,0 +184,3 @@
++–
++–
++–
+@@ -131,0 +190,19 @@
++SAML/OIDC SSO
++–
++–
++–
++SCIM provisioning
++–
++–
++–
++–
++Centralized enterprise admin controls
++–
++–
++–
++–
++Teamspace isolation
++–
++–
++–
++–
+@@ -133,4 +210,8 @@
+-SAML/OIDC SSO
+-SCIM provisioning
+-Centralized enterprise admin controls
+-Teamspace isolation
++–
++–
++–
++–
++Start your team on Devin
++Teams is self-serve at a flat $80/month.
++Start with Teams
++Get a demo
