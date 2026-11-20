@@ -1,0 +1,23 @@
+--- previous
++++ current
+@@ -8 +7,0 @@
+-Start searching
+@@ -10,0 +10,2 @@
++Language
++Loading languages…
+@@ -12,3 +13 @@
+-Light
+-Dark
+-System
++Theme
+@@ -86,4 +84,0 @@
+-Theme
+-Light
+-Dark
+-System
+@@ -312,0 +308 @@
++Reserved Tier
+@@ -766,0 +763 @@
++Prompting GPT-Live for languages and regional accents
+@@ -771 +767,0 @@
+-Maintaining software with the GPT-6 family

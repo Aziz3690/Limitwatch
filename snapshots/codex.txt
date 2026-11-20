@@ -5,13 +5,12 @@ llms.txt
 .md
 to the page URL.
 ChatGPT
-Start searching
 API Dashboard
 Try ChatGPT
+Language
+Loading languages…
 Theme
-Light
-Dark
-System
+Theme
 Home
 API
 Overview
@@ -83,10 +82,6 @@ Use cases
 Training
 Resources
 Resources
-Theme
-Light
-Dark
-System
 Search docs
 Suggested
 responses create
@@ -310,6 +305,7 @@ Prompt caching
 Prompt cache diagnostics
 Batch
 Flex processing
+Reserved Tier
 Safety and governance
 Safety best practices
 Red teaming
@@ -764,11 +760,11 @@ Docs
 Showcase
 All posts
 Recent
+Prompting GPT-Live for languages and regional accents
 Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
 Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
-Maintaining software with the GPT-6 family
 Topics
 General
 API
