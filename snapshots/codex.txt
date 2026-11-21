@@ -760,11 +760,11 @@ Docs
 Showcase
 All posts
 Recent
+How I stay in the flow with Ultrafast
+Time awareness and async input for personal agents
 Prompting GPT-Live for languages and regional accents
 Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
-Building a retro handheld game with Codex and ModRetro Chromatic
-Designing failover across OpenAI model providers
 Topics
 General
 API
@@ -820,6 +820,7 @@ Reddit
 X
 API Dashboard
 Try ChatGPT
+Ask AI
 Home
 Get started
 Quickstart
