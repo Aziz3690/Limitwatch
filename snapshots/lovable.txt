@@ -80,7 +80,7 @@ Everything in Business, plus
 Directory sync (SCIM)
 Audit logs
 Restrict who publishes and invites
-Auto-retire abandoned apps
+Auto-retire inactive apps
 Scheduled deep security scans
 Sensitive data detection and control
 Advanced design systems support
@@ -239,40 +239,14 @@ Trust
 center
 (opens in new window)
 Partnerships
-Legal
+EN
 Privacy
 policy
-(opens in new window)
-Do not sell or share my personal information
-Cookie settings
-Enterprise
-terms
 (opens in new window)
 General
 terms
 (opens in new window)
-Desktop app
-terms
-(opens in new window)
-Domain registration
-terms
-(opens in new window)
-DMCA copyright
-policy
-(opens in new window)
-Accessibilit
-y
-(opens in new window)
-Platform
-rules
-(opens in new window)
-Report
-abuse
-(opens in new window)
-Report security
-concerns
-(opens in new window)
-DP
-A
-(opens in new window)
-EN
+Cookie settings
+Your privacy
+choices
+Legal
