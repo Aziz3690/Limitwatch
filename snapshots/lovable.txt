@@ -109,7 +109,7 @@ What is a credit?
 Credits are units Lovable uses to measure and pay for usage across your workspace. Credits let you build apps, run deployed apps, and power AI features from one balance. The value of a credit and the rate at which they are consumed for a given action depend on your subscription plan and the feature used, and credits are not necessarily equal in value across different plans.
 How do I use credits in Lovable?
 Paid plans have access to a credit balance. Credits from your balance can be used in Lovable for building by sending messages to Lovable, hosting with Cloud, and offering AI features to users as part of your app.
-In addition to your credit balance, Pro and Business subscriptions include grants for building and hosting with Cloud.
+In addition to your credit balance, Pro and Business subscriptions include grants for building, hosting with Cloud, AI features in your apps, and connectors billed by Lovable. The connector grant is 1 credit a month.
 For building, pricing varies by mode:
 Default Mode:
 credits vary based on task complexity
@@ -150,8 +150,8 @@ Are credits refundable?
 No. Credits aren't refundable or redeemable for cash or any other value.
 What is included in free and paid plans?
 Starting to build on Lovable is free.
-The free plan includes a daily grant of 5 build credits (up to 30 a month), plus monthly grants of 20 Cloud credits. The free plan also grants 4 credits usable by AI features built into user apps, to try the feature before subscribing.
-Paid subscribers get their plan's credits added to their balance monthly. This balance can be used flexibly to cover building, Cloud, and AI features in user apps. On top, subscriptions include daily grants of 5 build credits (some regional plans cap these at 30 per month) and a monthly grant of 20 Cloud credits.
+The free plan includes a daily grant of 5 build credits (up to 30 a month), plus a monthly grant of 20 Cloud credits. It also grants 4 credits a month for AI features in your apps, so you can try them before you subscribe. It also grants 1 credit a month for connectors billed by Lovable.
+Paid subscribers get their plan's credits added to their balance monthly. This balance can be used flexibly to cover building, Cloud, AI features in your apps, and connectors billed by Lovable. On top, Pro and Business subscriptions include a daily grant of 5 build credits (some regional plans cap these at 30 per month), plus monthly grants of 20 Cloud credits, 4 credits for AI features in your apps, and 1 credit for connectors billed by Lovable.
 How do I buy credits for a team, class, or community?
 Every Lovable plan belongs to a workspace, and everyone you invite into that workspace shares its credits. To fund a group of people, upgrade one workspace to a plan with enough monthly credits for everyone, then invite the whole group. Everyone builds from the shared credit pool on one subscription and one invoice, and each member can work on as many of their own projects as they want.
 To keep any one person from using up the shared credits, workspace owners and admins can set a default monthly credit limit and per-member overrides.
@@ -170,9 +170,9 @@ Important: The cost for running their app and for AI features built into apps is
 Who owns the projects and code?
 You do. You own your code, which means the apps, websites, and other projects you build with Lovable, customer data stored in Lovable, as well as any AI output you generate in Lovable. (This is subject to any third-party rights in the underlying AI models.)
 Do you offer a student discount?
-Yes, we offer a student discount for students with a valid student email. You can read more and claim your discount on
+Yes, we offer a student discount for university students who are 18 or older and have a valid student email. You can read more and claim your discount on
 lovable.dev/students
-. Make sure you are logged in with your university email address.
+. Make sure you are logged in with your university email address. University educators can also request credits for their classes on the same page.
 Where can I find out more?
 Join the community on
 Discord
