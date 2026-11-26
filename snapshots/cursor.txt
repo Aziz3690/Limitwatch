@@ -661,12 +661,8 @@ Brand
 Future
 Anysphere
 ↗
+Terms and Policies
 Legal
-Terms of Service
-Acceptable Use Policy
-Grok Bot Terms
-SpaceXSI Subscription Terms
-↗
 Privacy Policy
 Cookie Policy
 Data Use
@@ -1359,12 +1355,8 @@ Brand
 Future
 Anysphere
 ↗
+Terms and Policies
 Legal
-Terms of Service
-Acceptable Use Policy
-Grok Bot Terms
-SpaceXSI Subscription Terms
-↗
 Privacy Policy
 Cookie Policy
 Data Use

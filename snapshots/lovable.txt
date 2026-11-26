@@ -11,6 +11,7 @@ Get started
 Pricing
 Start for free. Upgrade to get the capacity that exactly matches your team's needs.
 Plans
+Billing frequency
 Monthly
 Yearly
 2 months free
@@ -99,9 +100,8 @@ Contact sales
 Lovable for kids
 Compliant access & curriculum for schools in partnership with imagi.
 Learn more
-Security and compliance
 Enterprise-grade security and compliance certifications
-Learn more
+Visit the trust center
 Frequently asked questions
 What is Lovable and how does it work?
 Lovable is an AI software engineer, which enables anyone to build for the web. Simply chat to instantly build websites and web apps, with no technical knowledge needed.
@@ -150,7 +150,7 @@ Are credits refundable?
 No. Credits aren't refundable or redeemable for cash or any other value.
 What is included in free and paid plans?
 Starting to build on Lovable is free.
-The free plan includes a daily grant of 5 build credits (up to 30 a month), plus a monthly grant of 20 Cloud credits. It also grants 4 credits a month for AI features in your apps, so you can try them before you subscribe. It also grants 1 credit a month for connectors billed by Lovable.
+The free plan includes a daily grant of 5 build credits (up to 30 a month), plus a monthly grant of 20 Cloud credits. It also grants monthly credits for AI features in your apps, so you can try them before you subscribe. It also grants 1 credit a month for connectors billed by Lovable.
 Paid subscribers get their plan's credits added to their balance monthly. This balance can be used flexibly to cover building, Cloud, AI features in your apps, and connectors billed by Lovable. On top, Pro and Business subscriptions include a daily grant of 5 build credits (some regional plans cap these at 30 per month), plus monthly grants of 20 Cloud credits, 4 credits for AI features in your apps, and 1 credit for connectors billed by Lovable.
 How do I buy credits for a team, class, or community?
 Every Lovable plan belongs to a workspace, and everyone you invite into that workspace shares its credits. To fund a group of people, upgrade one workspace to a plan with enough monthly credits for everyone, then invite the whole group. Everyone builds from the shared credit pool on one subscription and one invoice, and each member can work on as many of their own projects as they want.
@@ -181,6 +181,7 @@ documentation
 .
 Related articles
 Plans and credits
+Ready to bring your idea to life?
 Product
 Pricing
 Student discount
